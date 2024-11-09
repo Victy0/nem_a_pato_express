@@ -23,32 +23,45 @@ class InitialPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  // icon 1
-                  IconButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const SelectGamePage()),
-                      );
-                    },
-                    icon: Image.asset(
-                      "assets/images/nem_a_pato_logo.jpg",
-                      height: 150,
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.white,
+                        width: 4,
+                      ),
                     ),
-                  ),
-                  // spacing
-                  const SizedBox(height: 20),
-                  // icon 2
-                  IconButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const SelectGamePage()),
-                      );
-                    },
-                    icon: Image.asset(
-                      "assets/images/nem_a_pato_duck.jpg", 
-                      height: 150,
+                    padding: const EdgeInsets.all(16.0),
+                    child: Column(
+                      children: [
+                        // Icon 1
+                        IconButton(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const SelectGamePage()),
+                            );
+                          },
+                          icon: Image.asset(
+                            "assets/images/nem_a_pato_logo.jpg",
+                            height: 150,
+                          ),
+                        ),
+                        // Spacing
+                        const SizedBox(height: 20),
+                        // Icon 2
+                        IconButton(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const SelectGamePage()),
+                            );
+                          },
+                          icon: Image.asset(
+                            "assets/images/nem_a_pato_duck.jpg", 
+                            height: 150,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
@@ -67,3 +80,4 @@ class InitialPage extends StatelessWidget {
     );
   }
 }
+

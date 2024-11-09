@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nem_a_pato_app/component/dialog_info_game.dart';
 import 'package:nem_a_pato_app/pages/initial_page.dart';
 
 class SelectGamePage extends StatelessWidget {
@@ -34,16 +35,14 @@ class SelectGamePage extends StatelessWidget {
 
       body: Stack(
         children: [
-
           Container(
             color: const Color.fromARGB(244, 253, 219, 23),
           ),
-
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-
+              // icon 1
               IconButton(
                 onPressed: () {
                   // ADICIONAR REDIRECIONAMENTO DE JOGO ALEATÓRIO
@@ -77,7 +76,7 @@ class SelectGamePage extends StatelessWidget {
                   ),
                 ), 
               ),
-
+              // divider
               const Padding(
                 padding: EdgeInsets.all(10.0),
                 child: Divider(
@@ -86,7 +85,7 @@ class SelectGamePage extends StatelessWidget {
                   height: 20.0,
                 ),
               ),
-
+              // icon 2
               IconButton(
                 onPressed: () {
                   // ADICIONAR REDIRECIONAMENTO DE JOGO TEMÁTICO
@@ -120,8 +119,14 @@ class SelectGamePage extends StatelessWidget {
                   ),
                 ), 
               ),
-
             ],
+          ),
+          const Align(
+            alignment: Alignment.bottomRight,
+            child: Padding(
+              padding: EdgeInsets.all(16.0),
+              child: DialogInfoGame(),
+            ),
           ),
         ],
       ),
