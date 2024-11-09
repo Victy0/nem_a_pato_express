@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/component/dialog_info_game.dart';
-import 'package:nem_a_pato_app/pages/select_game_page.dart';
+import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
 
 class InitialPage extends StatelessWidget {
   const InitialPage({super.key});
@@ -13,7 +13,7 @@ class InitialPage extends StatelessWidget {
         onTap: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const SelectGamePage()),
+            MaterialPageRoute(builder: (context) => const SelectGameModePage()),
           );
         },
         child: Stack(
@@ -38,12 +38,12 @@ class InitialPage extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => const SelectGamePage()),
+                              MaterialPageRoute(builder: (context) => const SelectGameModePage()),
                             );
                           },
                           icon: Image.asset(
                             "assets/images/nem_a_pato_logo.jpg",
-                            height: 150,
+                            height: 250,
                           ),
                         ),
                         // Spacing
@@ -53,12 +53,12 @@ class InitialPage extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => const SelectGamePage()),
+                              MaterialPageRoute(builder: (context) => const SelectGameModePage()),
                             );
                           },
                           icon: Image.asset(
                             "assets/images/nem_a_pato_duck.jpg", 
-                            height: 150,
+                            height: 250,
                           ),
                         ),
                       ],

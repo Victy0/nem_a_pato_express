@@ -11,7 +11,7 @@ class DialogInfoGame extends StatelessWidget {
         builder: (BuildContext context) => AlertDialog(
           title: const Center( 
             child: Text(
-              'Nem a Pato!',
+              'Nem a Pato! Express',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 30,
@@ -27,7 +27,7 @@ class DialogInfoGame extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 18,
+                    fontSize: 20,
                   ),
                 ),
               ],
@@ -35,12 +35,12 @@ class DialogInfoGame extends StatelessWidget {
           ),
           actions: <Widget>[
             TextButton(
-              onPressed: () => Navigator.pop(context, 'OK'),
+              onPressed: () => Navigator.pop(context),
               child: const Text(
                 'OK',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 18,
+                  fontSize: 20,
                 ),
               ),
             ),
@@ -49,7 +49,7 @@ class DialogInfoGame extends StatelessWidget {
       ),
       icon: Image.asset(
         "assets/images/question_icon.png", 
-        height: 33,
+        height: 40,
       ),
     );
   }
