@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/component/dialog_info_game.dart';
+import 'package:nem_a_pato_app/pages/game_page.dart';
 import 'package:nem_a_pato_app/pages/initial_page.dart';
 
 class SelectGamePage extends StatelessWidget {
@@ -10,6 +11,7 @@ class SelectGamePage extends StatelessWidget {
     return Scaffold(
 
       appBar: AppBar(
+          automaticallyImplyLeading: false, 
           title: Align(
             alignment: Alignment.centerRight,
             child: IconButton(
@@ -38,14 +40,30 @@ class SelectGamePage extends StatelessWidget {
           Container(
             color: const Color.fromARGB(244, 253, 219, 23),
           ),
+          const Align(
+            alignment: Alignment.topCenter,
+            child: Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                  "Escolha o modo de jogo:",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30,
+                  ),
+                ),
+            ),
+          ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // icon 1
+              // Icon 1
               IconButton(
                 onPressed: () {
-                  // ADICIONAR REDIRECIONAMENTO DE JOGO ALEATÓRIO
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const GamePage()),
+                  );
                 },
                 icon: Container(
                   width: 350,
@@ -76,7 +94,7 @@ class SelectGamePage extends StatelessWidget {
                   ),
                 ), 
               ),
-              // divider
+              // Divider
               const Padding(
                 padding: EdgeInsets.all(10.0),
                 child: Divider(
@@ -85,7 +103,7 @@ class SelectGamePage extends StatelessWidget {
                   height: 20.0,
                 ),
               ),
-              // icon 2
+              // Icon 2
               IconButton(
                 onPressed: () {
                   // ADICIONAR REDIRECIONAMENTO DE JOGO TEMÁTICO
@@ -98,8 +116,8 @@ class SelectGamePage extends StatelessWidget {
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                       colors: [
-                        Color.fromARGB(255, 255, 254, 254),
-                        Color.fromARGB(255, 238, 238, 238)
+                        Color.fromARGB(255, 139, 139, 139),
+                        Color.fromARGB(255, 119, 119, 119)
                       ],
                     ),
                     borderRadius: BorderRadius.circular(5),
