@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
-class DialogInfoGame extends StatelessWidget {
-  const DialogInfoGame({super.key});
+class DialogInfoGameMode extends StatelessWidget {
+  final String title;
+  final String content;
+
+  const DialogInfoGameMode({
+    super.key,
+    required this.title,
+    required this.content
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -9,23 +16,23 @@ class DialogInfoGame extends StatelessWidget {
       onPressed: () => showDialog<String>(
         context: context,
         builder: (BuildContext context) => AlertDialog(
-          title: const Center( 
+          title: Center( 
             child: Text(
-              'Nem a Pato! Express',
-              style: TextStyle(
+              title,
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 30,
               ),
             ),
           ),
-          content: const SingleChildScrollView(
+          content: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Neste jogo, o importante não é saber a resposta, você só precisa chutar um número.\nSó não exagere, pois alguém pode dizer “Nem a pato!” e desafiar seu palpite.\n\nEm cada rodada de Nem a Pato!, uma pergunta é selecionada e lida em voz alta, e cada jogador tentará adivinhar a resposta numérica em seu turno. Se um palpite for contestado, a resposta é verificada. Se a resposta estiver certa, você continua no jogo. Se a resposta estiver errada, você sai do jogo.\nNo final da partida, o último jogador vence!',
+                  content,
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20,
                   ),
@@ -37,7 +44,7 @@ class DialogInfoGame extends StatelessWidget {
             TextButton(
               onPressed: () => Navigator.pop(context),
               child: const Text(
-                'OK',
+                'QUACK!',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
@@ -48,8 +55,8 @@ class DialogInfoGame extends StatelessWidget {
         ),
       ),
       icon: Image.asset(
-        "assets/images/question_icon.png", 
-        height: 40,
+        "assets/images/info.png", 
+        height: 33,
       ),
     );
   }

@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/model/question.dart';
-import 'package:nem_a_pato_app/pages/select_game_page.dart';
+import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
 import 'package:nem_a_pato_app/service/data_service.dart';
 
 class GamePage extends StatefulWidget {
@@ -17,6 +17,7 @@ class GamePageState extends State<GamePage> {
   String question = "";
   int answer = 0;
   bool answerRevealed = false;
+  List<String> indexesQuestionsGoneList = [];
   final DataService dataService = DataService();
 
   @override
@@ -29,12 +30,23 @@ class GamePageState extends State<GamePage> {
     Random random = Random();
     int themeIndex = random.nextInt(21);
     int questionIndex = random.nextInt(5);
+    String indexString = themeIndex.toString() + questionIndex.toString();
+    List<String> indexesDone = indexesQuestionsGoneList;
+
+    while (indexesDone.contains(indexString)) {
+      themeIndex = random.nextInt(21);
+      questionIndex = random.nextInt(5);
+      indexString = themeIndex.toString() + questionIndex.toString();
+    }
+
+    indexesDone.add(indexString);
     Question questionLoaded = await dataService.loadQuestionByThemeAndQuestionIndex(themeIndex, questionIndex);
 
     setState(() {
       theme = questionLoaded.theme;
       question = questionLoaded.question;
       answer = questionLoaded.answer;
+      indexesQuestionsGoneList = indexesDone;
     });
   }
 
@@ -44,6 +56,12 @@ class GamePageState extends State<GamePage> {
     });
   }
 
+  void loadNextQuestion() {
+    loadData();
+    setState(() {
+      answerRevealed = false;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -154,7 +172,7 @@ class GamePageState extends State<GamePage> {
                           padding: const EdgeInsets.all(16.0),
                           child: IconButton(
                             onPressed: () {
-                              // AÇÃO DE CONTINUAR
+                              loadNextQuestion();
                             },
                             icon: Image.asset(
                               "assets/images/continue.png",
@@ -178,7 +196,7 @@ class GamePageState extends State<GamePage> {
                 onPressed: () {
                   Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const SelectGamePage()),
+                  MaterialPageRoute(builder: (context) => const SelectGameModePage()),
                 );
                 },
                 icon: Image.asset(
@@ -193,12 +211,15 @@ class GamePageState extends State<GamePage> {
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: IconButton(
-                onPressed: () {
-                  // AÇÃO DE PULAR
-                },
+                onPressed: answerRevealed
+                  ? null
+                  : () {
+                    loadNextQuestion();
+                  },
                 icon: Image.asset(
                   "assets/images/jump.png",
                   height: 70,
+                  opacity: answerRevealed ? const AlwaysStoppedAnimation(.5) : const AlwaysStoppedAnimation(1),
                 ),
               ),
             ),
