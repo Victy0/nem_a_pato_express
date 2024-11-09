@@ -72,18 +72,6 @@ class SelectGamePage extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 30,
-                        shadows: <Shadow>[
-                          Shadow(
-                            offset: Offset(1.0, 1.0),
-                            blurRadius: 7.0,
-                            color: Color.fromARGB(255, 255, 255, 255),
-                          ),
-                          Shadow(
-                            offset: Offset(-1.0, -1.0),
-                            blurRadius: 7.0,
-                            color: Color.fromARGB(237, 255, 255, 255),
-                          ),
-                        ],
                       ),
                     ),
                   ),
@@ -127,18 +115,6 @@ class SelectGamePage extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 30,
-                        shadows: <Shadow>[
-                          Shadow(
-                            offset: Offset(1.0, 1.0),
-                            blurRadius: 7.0,
-                            color: Color.fromARGB(255, 255, 255, 255),
-                          ),
-                          Shadow(
-                            offset: Offset(-1.0, -1.0),
-                            blurRadius: 7.0,
-                            color: Color.fromARGB(237, 255, 255, 255),
-                          ),
-                        ],
                       ),
                     ),
                   ),
