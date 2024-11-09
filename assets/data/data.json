@@ -1,0 +1,614 @@
+{
+  "themeQuantity": 21,
+  "themeList": [
+    {
+      "theme": "Gato",
+      "questions": [
+        {
+          "question": "Número de vértebras que um gato possui nas costas:",
+          "answer": 53
+        },
+        {
+          "question": "Velocidade que um gato pode alcançar em curtas distâncias (km/h):",
+          "answer": 49
+        },
+        {
+          "question": "Número de músculos estimado que controlam o ouvido externo de um gato:",
+          "answer": 32
+        },
+        {
+          "question": "Número estimado de pelos por cm² que um gato adulto possui (em milhares):",
+          "answer": 130
+        },
+        {
+          "question": "Número máximo de batidas por minuto que o coração de um gato saudável:",
+          "answer": 140
+        },
+        {
+          "question": "Peso máximo de um gato da raça Maine Coon - raça com maiores gatos em quesito de altura (kg):",
+          "answer": 12
+        }
+      ]
+    },
+    {
+      "theme": "Cachorro",
+      "questions": [
+        {
+          "question": "Peso da cadela mais pesada registrada, uma São Bernado chamada Benedictine (kg):",
+          "answer": 166
+        },
+        {
+          "question": "Número de filhotes que uma cadela pode ter em 6 anos se não for castrada:",
+          "answer": 66
+        },
+        {
+          "question": "Número estimado de expressões faciais de um cachorro:",
+          "answer": 100
+        },
+        {
+          "question": "Número de filhotes da maior ninhada de cachorros (ocorreu em 1994 por uma American Foxhound):",
+          "answer": 24
+        },
+        {
+          "question": "Número estimado em que cachorros são mencionadas na Bíblia:",
+          "answer": 14
+        },
+        {
+          "question": "Idade do cachorro mais velho, Bobi que faleceu em 2023:",
+          "answer": 31
+        }
+      ]
+    },
+    {
+      "theme": "Brasil",
+      "questions": [
+        {
+          "question": "Número de municípios presente no Brasil:",
+          "answer": 5570
+        },
+        {
+          "question": "Número de aeroportos públicos no Brasil em 2023:",
+          "answer": 700
+        },
+        {
+          "question": "Extensão territorial aproximada da BR-101, maior estrada do Brasil (km):",
+          "answer": 4800
+        },
+        {
+          "question": "Número de clubes de futebol profissional existentes no Brasil em 2024:",
+          "answer": 600
+        },
+        {
+          "question": "Pontos de IBOPE em São Paulo registrado no final da Copa do Mundo de 2022 (maior do Brasil):",
+          "answer": 90
+        },
+        {
+          "question": "Número de capítulos da telenovela 'Redenção', a mais longa da televisão brasileira:",
+          "answer": 596
+        }
+      ]
+    },
+    {
+      "theme": "Cerveja",
+      "questions": [
+        {
+          "question": "Litros de cerveja por habitante na República Checa consumidos em 2016:",
+          "answer": 143
+        },
+        {
+          "question": "Consumo global de cerveja estimado em 2021 (bilhões de litros):",
+          "answer": 190
+        },
+        {
+          "question": "Número de cervejas artesanais em circulação nos Estados Unidos em 2020:",
+          "answer": 8000
+        },
+        {
+          "question": "Quantidade de sabores que diferentes variedades de lupo estimado que podem resultar:",
+          "answer": 300
+        },
+        {
+          "question": "Número estimado de cervejarias registradas na Alemanha em 2024:",
+          "answer": 1500
+        },
+        {
+          "question": "Número de garrafas fabricadas da Antarctic Nail Ale, cerveja mais cara do mundo:",
+          "answer": 30
+        }
+      ]
+    },
+    {
+      "theme": "Corpo humano",
+      "questions": [
+        {
+          "question": "Litros de sangue estimado que um coração bombeia a cada 24 horas:",
+          "answer": 7570
+        },
+        {
+          "question": "Número estimado de leucócitos produzidos por segundos para combater infecções:",
+          "answer": 2000
+        },
+        {
+          "question": "Vezes estimada que os olhos piscam por dia:",
+          "answer": 28800
+        },
+        {
+          "question": "Número máximo estimado de células de pele que o corpo perde por minuto:",
+          "answer": 40000
+        },
+        {
+          "question": "Número estimado conexões que um único neurônio pode realizar com outros neurônios:",
+          "answer": 10000
+        },
+        {
+          "question": "Tipos diferentes de bactérias presente no umbigo de uma pessoa:",
+          "answer": 1400
+        }
+      ]
+    },
+    {
+      "theme": "Ar",
+      "questions": [
+        {
+          "question": "Quantidade estimada de litros de oxigênio que um ser humano consome por dia:",
+          "answer": 550
+        },
+        {
+          "question": "Velocidade do som no ar a uma temperatura ambiente de 20ºC (m/s):",
+          "answer": 343
+        },
+        {
+          "question": "Altitude que geralmente as aeronaves voam:",
+          "answer": 10000
+        },
+        {
+          "question": "Recorde mundial de velocidade do vento registrado, em 1996 por um furação no Oceano Atlântico(km/h):",
+          "answer": 508
+        },
+        {
+          "question": "Concetração de CO2 na atmosfera em partes por milhão (ppm):",
+          "answer": 400
+        },
+        {
+          "question": "Quantidade de oxigênio por ano que uma árvore adulta produz (kg):",
+          "answer": 100
+        }
+      ]
+    },
+    {
+      "theme": "Papel",
+      "questions": [
+        {
+          "question": "Quantidade de papel produzidas globalmente em 2021 (milhões de toneladas):",
+          "answer": 420
+        },
+        {
+          "question": "Número estimado de árvores necessárias para produzir 1 tonelada de papel de alta qualidade:",
+          "answer": 17
+        },
+        {
+          "question": "Estimativa de valor agregadoem 2021 para o mercado de embalagens de papel (bilhões):",
+          "answer": 190
+        },
+        {
+          "question": "Peso de 100.000 folhas de papel A4 (kg):",
+          "answer": 450
+        },
+        {
+          "question": "Quantidade estimada de tonelada de papelão ondulado produzidos em 2020 (milhão):",
+          "answer": 210
+        },
+        {
+          "question": "Número médio de rolos de papel higiênico utilizada por uma pessoa em 1 ano:",
+          "answer": 60
+        }
+      ]
+    },
+    {
+      "theme": "Inseto",
+      "questions": [
+        {
+          "question": "Velocidade máxima que uma libélula pode alcançar (km/h):",
+          "answer": 60
+        },
+        {
+          "question": "Número estimado de espécies do gênero Formica (formigas):",
+          "answer": 1000
+        },
+        {
+          "question": "Número de vezes que uma pulga pode saltar em relação a sua altura:",
+          "answer": 200
+        },
+        {
+          "question": "Quantidade de neurônios que uma abelha possui:",
+          "answer": 900000
+        },
+        {
+          "question": "Distância percorrida pela mariposa-monarca em sua migração do Canadá ao México (km):",
+          "answer": 4800
+        },
+        {
+          "question": "Número de ovos que uma mosca doméstica pode depositar durante sua vida adulta (em torno de 3 semanas):",
+          "answer": 500
+        }
+      ]
+    },
+    {
+      "theme": "Oceano",
+      "questions": [
+        {
+          "question": "Profundidade da Fossa das Marianas, o ponto mais profundo do oceano (m):",
+          "answer": 10984
+        },
+        {
+          "question": "Distância que a Dorsal Mesoatlântica se estende ao longo do fundo do Oceano Atlântico (km):",
+          "answer": 65000
+        },
+        {
+          "question": "Quantidade em metros cúbicos de água que a corrente do Golfo transporta por segundo (milhões):",
+          "answer": 30
+        },
+        {
+          "question": "Altura estimada da maior onda registrada durente um terremoto na Baía de Lituya(m):",
+          "answer": 91
+        },
+        {
+          "question": "Diferença de altura entre a maré baixa e maré alta na Baía de Fundy, no Canadá (m):",
+          "answer": 18
+        },
+        {
+          "question": "Número estimado de espécies de corais conhecidas:",
+          "answer": 2500
+        }
+      ]
+    },
+    {
+      "theme": "Livro",
+      "questions": [
+        {
+          "question": "Tempo médio de leitura nos Estados Unidos em 2020 (minutos por dia):",
+          "answer": 12
+        },
+        {
+          "question": "Valor avaliado estimado em 2021 do mercado editorial global (bilhões de dólares):",
+          "answer": 122
+        },
+        {
+          "question": "Número estimado de livros físicos vendidos em 2022 (milhões):",
+          "answer": 675
+        },
+        {
+          "question": "Quantidade estimada de palavras presente nos livros da trilogia 'O Senhor dos Aneis' (milhares):",
+          "answer": 480
+        },
+        {
+          "question": "Número de livros presente na primeira tiragem de 'Harry Potter e a pedra filosofal':",
+          "answer": 500
+        },
+        {
+          "question": "Quantidade de livros pertencentes a série de ficção científica de 'Discworld' de Terry Pratchett, até 2024:",
+          "answer": 41
+        }
+      ]
+    },
+    {
+      "theme": "Pato",
+      "questions": [
+        {
+          "question": "Quantidade estimada de espécies de patos conhecidas no mundo:",
+          "answer": 120
+        },
+        {
+          "question": "Número máximo de ovos que pode conter numa posta de ovos de patos domésticos:",
+          "answer": 40
+        },
+        {
+          "question": "Distância percorrida por um pato-real durante a migração sazonal (km):",
+          "answer": 2000
+        },
+        {
+          "question": "Angulação da visão de um pato (graus):",
+          "answer": 360
+        },
+        {
+          "question": "Número médio de indivíduos de patos que podem se reunir durante a migração:",
+          "answer": 1000
+        },
+        {
+          "question": "Comprimento máximo que um pato-de-cabeça-vermelha que pode possuir (cm):",
+          "answer": 50
+        }
+      ]
+    },
+    {
+      "theme": "Futebol",
+      "questions": [
+        {
+          "question": "Número de gols marcados em Copas do Mundo FIFA até 2022:",
+          "answer": 2500
+        },
+        {
+          "question": "Número de gols marcados pelo Lionel Messi durtante a temporada de clubes em 2012:",
+          "answer": 91
+        },
+        {
+          "question": "Tempo para ser realizado o gol mais rápido da história das Copas marcado por Hakan Şükür em 2002 (s):",
+          "answer": 11
+        },
+        {
+          "question": "Duração da partida de futebol profissional amis longa (min):",
+          "answer": 203
+        },
+        {
+          "question": "Média de cartões amarelos por partida em Copa do Mundo:",
+          "answer": 5
+        },
+        {
+          "question": "Maior quantidade de cartões vermelhos que um jogador (Gerardo Bedoya) recebeu durante sua carreira:",
+          "answer": 46
+        }
+      ]
+    },
+    {
+      "theme": "Vulcão",
+      "questions": [
+        {
+          "question": "Média de erupções vulcânicas que ocorrem ao ano, de qualquer intensidade:",
+          "answer": 500
+        },
+        {
+          "question": "Número de vulcões que têm ou já tiveram erupções registradas nos últimos 10.000 anos:",
+          "answer": 1500
+        },
+        {
+          "question": "Porcentagem de vulcões ativos do mundo localizados no 'Cinturaão de Fogo do Pacífico':",
+          "answer": 75
+        },
+        {
+          "question": "Diâmetro do maior vulcão conhecido do sistema solar, Monte Olimpo em Marte (km):",
+          "answer": 600
+        },
+        {
+          "question": "Quantidade de material(lava, cinzas e gases) liberado pela erupção do Monte Tambora, em 1815 (km³):",
+          "answer": 150
+        },
+        {
+          "question": "Número de vítimas devio as erupções mais mortais, as do Monte Tamboram em 1815:",
+          "answer": 71000
+        }
+      ]
+    },
+    {
+      "theme": "Sabonete",
+      "questions": [
+        {
+          "question": "Estimativa de avaliação do mercado de sabão e produtos de cuidados pessoais em 2020 (bilhões de dólares):",
+          "answer": 20
+        },
+        {
+          "question": "Número estimado de sabonetes produzidos anualmente em 2020 (milhões de toneladas):",
+          "answer": 12
+        },
+        {
+          "question": "Porcentagem que sabonetes liquídos represetam no mercado global de sabonete de 2020:",
+          "answer": 20
+        },
+        {
+          "question": "Porcentagem de sabonetes comercias produzidos com óleo de palma no ano de 2020:",
+          "answer": 40
+        },
+        {
+          "question": "Número estimado da média de sabonete em barra que um japones utilizou por ano, em 2022:",
+          "answer": 13
+        },
+        {
+          "question": "Valor do sabonete da marca Khan Al Saboun, que contém pó de diamante e ouro (dólares):",
+          "answer": 2800
+        }
+      ]
+    },
+    {
+      "theme": "Video game",
+      "questions": [
+        {
+          "question": "Número de pastilhas no labireinto do jogo 'Pac Man':",
+          "answer": 240
+        },
+        {
+          "question": "Número estimado de unidades vendidas de Playstation 2 (milhões):",
+          "answer": 160
+        },
+        {
+          "question": "Número de moedas no primeiro nível do primeiro 'Super Mario Bros.':",
+          "answer": 44
+        },
+        {
+          "question": "Altura do campo de jogo de 'Tetris' (em número de linhas):",
+          "answer": 20
+        },
+        {
+          "question": "Número de músicas no primeiro 'Guitar Hero':",
+          "answer": 47
+        },
+        {
+          "question": "Número de prêmios que o jogo 'The Last of Us' recebeu até 2015:",
+          "answer": 139
+        }
+      ]
+    },
+    {
+      "theme": "Chocolate",
+      "questions": [
+        {
+          "question": "Altura do maior coelho de chocolate produzido no mundo até 2024(cm):",
+          "answer": 452
+        },
+        {
+          "question": "Consumo médio de chocolate consumido anualmente por uma pessoa na Suiça em 2019 (kg):",
+          "answer": 11
+        },
+        {
+          "question": "Peso da maior barra de chocolate já produzida até 2023 (kg):",
+          "answer": 5792
+        },
+        {
+          "question": "Número de cores diferentes em um pacote padrão de 'M&M':",
+          "answer": 6
+        },
+        {
+          "question": "Temperatura máxima de fusão do chocolate (ºC):",
+          "answer": 32
+        },
+        {
+          "question": "Número da produção de cacau do Brazil no ano de 2021 (mil toneladas):",
+          "answer": 265
+        }
+      ]
+    },
+    {
+      "theme": "Nome",
+      "questions": [
+        {
+          "question": "Número de letras no primeiro nome mais longo do mundo:",
+          "answer": 1023
+        },
+        {
+          "question": "Porcentagem de pessoas que já utilizaram o nome do animal como senha até 2019:",
+          "answer": 15
+        },
+        {
+          "question": "Porcentagem de Marias na população do Brasil até 2023 (incluindo nomes compostos):",
+          "answer": 12
+        },
+        {
+          "question": "Número de registros do nome 'Pelé' nas décadas de 1960,1970 e 1980:",
+          "answer": 82
+        },
+        {
+          "question": "Número de brasileiros que receberam o nome de 'Magaiver' em 1990:",
+          "answer": 310
+        },
+        {
+          "question": "Número de nomes diferentes no Brasil registrado no IBGE em 2010 (milhares):",
+          "answer": 130
+        }
+      ]
+    },
+    {
+      "theme": "País",
+      "questions": [
+        {
+          "question": "Número de países que são ou já foram comunistas:",
+          "answer": 45
+        },
+        {
+          "question": "Número de países visitados pela Rainha Elizabeth II:",
+          "answer": 106
+        },
+        {
+          "question": "Número de países que desapareceriam se o nível do mar subisse 100 m em 2024:",
+          "answer": 8
+        },
+        {
+          "question": "Número de países sem acesso ao mar:",
+          "answer": 44
+        },
+        {
+          "question": "Comprimemento da fronteira da China (milhares de km):",
+          "answer": 22
+        },
+        {
+          "question": "Área do Suriname (milhares de km²):",
+          "answer": 163
+        }
+      ]
+    },
+    {
+      "theme": "Quadrinho",
+      "questions": [
+        {
+          "question": "Número de países pelos quais Tintim já passou:",
+          "answer": 54
+        },
+        {
+          "question": "Peso do Obelix (kg):",
+          "answer": 140
+        },
+        {
+          "question": "Número de listras no rabo do Garfield:",
+          "answer": 5
+        },
+        {
+          "question": "Número de anos de publicação do material original de Peanuts (Turma do Charlie Brown):",
+          "answer": 50
+        },
+        {
+          "question": "Preço recorde de venda de uma tirinha original de 'Calvin & Haroldo' (milhares de dólares):",
+          "answer": 203
+        },
+        {
+          "question": "Número de páginas de uma revista padrão da Marvel:",
+          "answer": 32
+        }
+      ]
+    },
+    {
+      "theme": "Pássaro",
+      "questions": [
+        {
+          "question": "Número máximo de vezes que um beija-flor bate as asas em um segundo:",
+          "answer": 80
+        },
+        {
+          "question": "Velocidade média de voo de um pato selvagem (km/h):",
+          "answer": 80
+        },
+        {
+          "question": "Envergadura máxima de um albatroz (cm):",
+          "answer": 370
+        },
+        {
+          "question": "Número de galinhas no mundo presente em 2023 (bilhões):",
+          "answer": 34
+        },
+        {
+          "question": "Número de graus que uma coruja consegue girar a cabeça:",
+          "answer": 270
+        },
+        {
+          "question": "Número de vezes que o peso de um ovo de avestruz é mairo que um ovo de galinha:",
+          "answer": 25
+        }
+      ]
+    },
+    {
+      "theme": "Super-herói",
+      "questions": [
+        {
+          "question": "Número de cópias vendidas de X-men volume 2 Número 1 em 1991 (milhões):",
+          "answer": 8
+        },
+        {
+          "question": "Comprimento das garras do Wolverine (cm):",
+          "answer": 30
+        },
+        {
+          "question": "Número total de integrantes da Liga da Justiça até 1980:",
+          "answer": 19
+        },
+        {
+          "question": "Idade do Capitão América em sua cena final em 'Vingadores: Ultimato':",
+          "answer": 179
+        },
+        {
+          "question": "Número de episódio das 3 temporadas de 'Liga da Justiça Sem Limites':",
+          "answer": 39
+        },
+        {
+          "question": "Número de integrantes da equipe de titãs até o final da série animada 'Jovens Titãs':",
+          "answer": 32
+        }
+      ]
+    }
+  ]
+}
