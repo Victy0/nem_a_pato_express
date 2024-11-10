@@ -12,6 +12,7 @@ class DialogInfoGame extends StatelessWidget {
           title: const Center( 
             child: Text(
               'Nem a Pato! Express',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 30,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nem_a_pato_app/pages/game_page.dart';
+import 'package:nem_a_pato_app/component/dialog_players_number.dart';
 import 'package:nem_a_pato_app/component/dialog_info_game_mode.dart';
 
 class GameMode extends StatelessWidget {
@@ -22,12 +22,12 @@ class GameMode extends StatelessWidget {
         DialogInfoGameMode(title: "Modo $modeName", content: description),
         IconButton(
           onPressed: () {
-            isActive
-              ? Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const GamePage()),
-                )
-              : null;
+            if (isActive) {
+              showDialog<String>(
+                context: context,
+                builder: (BuildContext context) => const DialogPlayerNumber(),
+              );
+            }
           },
           icon: Container(
             width: 300,

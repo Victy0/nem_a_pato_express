@@ -6,7 +6,12 @@ import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
 import 'package:nem_a_pato_app/service/data_service.dart';
 
 class GamePage extends StatefulWidget {
-  const GamePage({super.key});
+  final int matches;
+
+  const GamePage({
+    super.key,
+    required this.matches,
+  });
 
   @override
   GamePageState createState() => GamePageState();
