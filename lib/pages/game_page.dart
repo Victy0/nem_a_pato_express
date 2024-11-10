@@ -6,11 +6,11 @@ import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
 import 'package:nem_a_pato_app/service/data_service.dart';
 
 class GamePage extends StatefulWidget {
-  final int matches;
+  final int totalMatches;
 
   const GamePage({
     super.key,
-    required this.matches,
+    required this.totalMatches,
   });
 
   @override
@@ -18,12 +18,13 @@ class GamePage extends StatefulWidget {
 }
 
 class GamePageState extends State<GamePage> {
+  final DataService dataService = DataService();
   String theme = "";
   String question = "";
   int answer = 0;
   bool answerRevealed = false;
+  int currentMatch = 1;
   List<String> indexesQuestionsGoneList = [];
-  final DataService dataService = DataService();
 
   @override
   void initState() {
@@ -62,10 +63,21 @@ class GamePageState extends State<GamePage> {
   }
 
   void loadNextQuestion() {
+    if(currentMatch == widget.totalMatches) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const SelectGameModePage()),
+      );
+    }
     loadData();
     setState(() {
       answerRevealed = false;
+      currentMatch++;
     });
+  }
+
+  void jumpQuestion() {
+    loadData();
   }
 
   @override
@@ -171,21 +183,37 @@ class GamePageState extends State<GamePage> {
                       ),
                     ),
                     answerRevealed
-                      ? Align(
-                        alignment: Alignment.bottomRight,
-                        child: Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: IconButton(
-                            onPressed: () {
-                              loadNextQuestion();
-                            },
-                            icon: Image.asset(
-                              "assets/images/continue.png",
-                              height: 55,
+                      ? currentMatch == widget.totalMatches
+                        ? const Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Padding(
+                              padding: EdgeInsets.all(16.0),
+                              child: Text(
+                                "FIM DE JOGO!",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 30,
+                                  color: Color.fromARGB(255, 253, 42, 42)
+                                ),
+                              )
                             ),
-                          ),
-                        ),
-                      )
+                          )
+                        : Align(
+                            alignment: Alignment.bottomRight,
+                            child: Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: IconButton(
+                                onPressed: () {
+                                  loadNextQuestion();
+                                },
+                                icon: Image.asset(
+                                  "assets/images/continue.png",
+                                  height: 55,
+                                ),
+                              ),
+                            ),
+                          )
+                        // condictional end
                       : Container()
                     // condictional end
                   ],
@@ -200,9 +228,9 @@ class GamePageState extends State<GamePage> {
               child: IconButton(
                 onPressed: () {
                   Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const SelectGameModePage()),
-                );
+                    context,
+                    MaterialPageRoute(builder: (context) => const SelectGameModePage()),
+                  );
                 },
                 icon: Image.asset(
                   "assets/images/exit.png",
@@ -219,7 +247,7 @@ class GamePageState extends State<GamePage> {
                 onPressed: answerRevealed
                   ? null
                   : () {
-                    loadNextQuestion();
+                    jumpQuestion();
                   },
                 icon: Image.asset(
                   "assets/images/jump.png",
