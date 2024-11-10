@@ -68,6 +68,15 @@ class InitialPage extends StatelessWidget {
               ),
             ),
             const Align(
+              alignment: Alignment.bottomLeft,
+              child: Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Text (
+                  "Versão 1.0.0"
+                )
+              ),
+            ),
+            const Align(
               alignment: Alignment.bottomRight,
               child: Padding(
                 padding: EdgeInsets.all(16.0),
