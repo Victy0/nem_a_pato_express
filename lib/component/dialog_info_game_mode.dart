@@ -19,6 +19,7 @@ class DialogInfoGameMode extends StatelessWidget {
           title: Center( 
             child: Text(
               title,
+              textAlign: TextAlign.center,
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 30,
