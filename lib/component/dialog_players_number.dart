@@ -91,7 +91,7 @@ class NumberPickerDialogState extends State<DialogPlayerNumber> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => GamePage(matches: playersNumber)),
+                  MaterialPageRoute(builder: (context) => GamePage(totalMatches: playersNumber)),
                 );
               },
               child: const Text(
