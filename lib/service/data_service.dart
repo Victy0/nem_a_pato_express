@@ -5,11 +5,16 @@ import 'package:nem_a_pato_app/model/question.dart';
 import 'package:nem_a_pato_app/model/theme.dart';
 
 class DataService {
+  Map<String, dynamic> dataLoaded = {};
+
   Future<Map<String, dynamic>> loadData() async {
+    if (dataLoaded.isNotEmpty) {
+      return dataLoaded;
+    }
     try {
       String content = await root_bundle.rootBundle.loadString('assets/data/data.json');
-      Map<String, dynamic> datas = jsonDecode(content);
-      return datas;
+      dataLoaded = jsonDecode(content);
+      return dataLoaded;
     } catch (e) {
       print('Erro ao carregar o arquivo: $e');
       return {};
@@ -17,14 +22,14 @@ class DataService {
   }
 
   Future<int> loadThemeQuantity() async {
-    Map<String, dynamic> dataLoaded = await loadData();
+    Map<String, dynamic>? dataLoaded = await loadData();
 
     if (dataLoaded.containsKey('themeQuantity')) {
       var themeNumber = dataLoaded['themeQuantity'] as int;
 
       return themeNumber;
     } else {
-      return 21;
+      return 0;
     }
   }
 
@@ -43,7 +48,6 @@ class DataService {
         Theme theme = Theme.fromJson(tema);
         return theme.questions;
       } else {
-        print('Tema não encontrado');
         return [];
       }
     } else {
