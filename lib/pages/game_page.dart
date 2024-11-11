@@ -21,6 +21,7 @@ class GamePage extends StatefulWidget {
 class GamePageState extends State<GamePage> {
   final DataService dataService = DataService();
   final player = AudioPlayer();
+  int themeNumber = 0;
   String theme = "";
   String question = "";
   int answer = 0;
@@ -35,14 +36,18 @@ class GamePageState extends State<GamePage> {
   }
 
   Future<void> loadData() async {
+    int themeNumberLoaded = themeNumber;
+    if(themeNumberLoaded == 0) {
+      themeNumberLoaded = await dataService.loadThemeQuantity();
+    }
     Random random = Random();
-    int themeIndex = random.nextInt(21);
+    int themeIndex = random.nextInt(themeNumberLoaded);
     int questionIndex = random.nextInt(5);
     String indexString = themeIndex.toString() + questionIndex.toString();
     List<String> indexesDone = indexesQuestionsGoneList;
 
     while (indexesDone.contains(indexString)) {
-      themeIndex = random.nextInt(21);
+      themeIndex = random.nextInt(themeNumberLoaded);
       questionIndex = random.nextInt(5);
       indexString = themeIndex.toString() + questionIndex.toString();
     }
@@ -51,6 +56,7 @@ class GamePageState extends State<GamePage> {
     Question questionLoaded = await dataService.loadQuestionByThemeAndQuestionIndex(themeIndex, questionIndex);
 
     setState(() {
+      themeNumber = themeNumberLoaded;
       theme = questionLoaded.theme;
       question = questionLoaded.question;
       answer = questionLoaded.answer;

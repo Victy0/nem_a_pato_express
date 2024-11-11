@@ -16,6 +16,18 @@ class DataService {
     }
   }
 
+  Future<int> loadThemeQuantity() async {
+    Map<String, dynamic> dataLoaded = await loadData();
+
+    if (dataLoaded.containsKey('themeQuantity')) {
+      var themeNumber = dataLoaded['themeQuantity'] as int;
+
+      return themeNumber;
+    } else {
+      return 21;
+    }
+  }
+
   Future<List<Question>> loadQuestionsByThemeIndex(int themeIndex) async {
     Map<String, dynamic> datas = await loadData();
 
