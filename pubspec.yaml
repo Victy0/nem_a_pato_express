@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  audioplayers: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -24,6 +25,7 @@ flutter:
   assets:
     - assets/images/
     - assets/data/data.json
+    - assets/sounds/
 
     # To add assets to your application, add an assets section, like this:
     # assets:

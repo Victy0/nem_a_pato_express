@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/model/question.dart';
 import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
@@ -19,6 +20,7 @@ class GamePage extends StatefulWidget {
 
 class GamePageState extends State<GamePage> {
   final DataService dataService = DataService();
+  final player = AudioPlayer();
   String theme = "";
   String question = "";
   int answer = 0;
@@ -56,9 +58,12 @@ class GamePageState extends State<GamePage> {
     });
   }
 
-  void showAnswer() {
-    setState(() {
-      answerRevealed = true;
+  void showAnswer() async {
+    await player.play(AssetSource('sounds/quack.mp3'));
+    Future.delayed(const Duration(milliseconds: 20), () {
+      setState(() {
+        answerRevealed = true;
+      });
     });
   }
 
