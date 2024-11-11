@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/component/dialog_info_game.dart';
 import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
@@ -7,6 +8,8 @@ class InitialPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final player = AudioPlayer();
+    
     return Scaffold(
       backgroundColor: const Color.fromARGB(244, 253, 219, 23),
       body: GestureDetector(
@@ -35,7 +38,8 @@ class InitialPage extends StatelessWidget {
                       children: [
                         // Icon 1
                         IconButton(
-                          onPressed: () {
+                          onPressed: () async {
+                            await player.play(AssetSource('sounds/quack.mp3'));
                             Navigator.push(
                               context,
                               MaterialPageRoute(builder: (context) => const SelectGameModePage()),
@@ -50,7 +54,8 @@ class InitialPage extends StatelessWidget {
                         const SizedBox(height: 20),
                         // Icon 2
                         IconButton(
-                          onPressed: () {
+                          onPressed: () async {
+                            await player.play(AssetSource('sounds/quack.mp3'));
                             Navigator.push(
                               context,
                               MaterialPageRoute(builder: (context) => const SelectGameModePage()),
