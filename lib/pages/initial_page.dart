@@ -77,7 +77,7 @@ class InitialPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text (
-                  "Versão 1.0.0"
+                  "Versão 1.0.1"
                 )
               ),
             ),
