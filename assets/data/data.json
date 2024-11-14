@@ -1,5 +1,5 @@
 {
-  "themeQuantity": 21,
+  "themeQuantity": 31,
   "themeList": [
     {
       "theme": "Gato",
@@ -9,7 +9,7 @@
           "answer": 53
         },
         {
-          "question": "Velocidade que um gato pode alcançar em curtas distâncias (km/h):",
+          "question": "Velocidade que um gato pode alcançar em curtas distâncias (quilômetros por hora):",
           "answer": 49
         },
         {
@@ -17,7 +17,7 @@
           "answer": 32
         },
         {
-          "question": "Número estimado de pelos por cm² que um gato adulto possui (em milhares):",
+          "question": "Número estimado de pelos por cm² que um gato adulto possui (milhares):",
           "answer": 130
         },
         {
@@ -25,7 +25,7 @@
           "answer": 140
         },
         {
-          "question": "Peso máximo de um gato da raça Maine Coon - raça com maiores gatos em quesito de altura (kg):",
+          "question": "Peso máximo de um gato da raça Maine Coon - raça com maiores gatos em quesito de altura (quilogramas):",
           "answer": 12
         }
       ]
@@ -34,11 +34,11 @@
       "theme": "Cachorro",
       "questions": [
         {
-          "question": "Peso da cadela mais pesada registrada, uma São Bernado chamada Benedictine (kg):",
+          "question": "Peso da cadela mais pesada registrada, uma São Bernado chamada Benedictine (quilogramas):",
           "answer": 166
         },
         {
-          "question": "Número de filhotes que uma cadela pode ter em 6 anos se não for castrada:",
+          "question": "Número de filhotes estimado que uma cadela pode ter em 6 anos se não for castrada:",
           "answer": 66
         },
         {
@@ -71,7 +71,7 @@
           "answer": 700
         },
         {
-          "question": "Extensão territorial aproximada da BR-101, maior estrada do Brasil (km):",
+          "question": "Extensão territorial aproximada da BR-101, maior estrada do Brasil (quilômetros):",
           "answer": 4800
         },
         {
@@ -154,7 +154,7 @@
           "answer": 550
         },
         {
-          "question": "Velocidade do som no ar a uma temperatura ambiente de 20ºC (m/s):",
+          "question": "Velocidade do som no ar a uma temperatura ambiente de 20ºC (metros por segundo):",
           "answer": 343
         },
         {
@@ -162,7 +162,7 @@
           "answer": 10000
         },
         {
-          "question": "Recorde mundial de velocidade do vento registrado, em 1996, por um furacão no Oceano Atlântico(km/h):",
+          "question": "Recorde mundial de velocidade do vento registrado, em 1996, por um furacão no Oceano Atlântico(quilômetros por hora):",
           "answer": 508
         },
         {
@@ -170,7 +170,7 @@
           "answer": 400
         },
         {
-          "question": "Quantidade de oxigênio por ano que uma árvore adulta produz (kg):",
+          "question": "Quantidade de oxigênio por ano que uma árvore adulta produz (quilogramas):",
           "answer": 100
         }
       ]
@@ -191,7 +191,7 @@
           "answer": 190
         },
         {
-          "question": "Peso de 100.000 folhas de papel A4 (kg):",
+          "question": "Peso de 100.000 folhas de papel A4 (quilogramas):",
           "answer": 450
         },
         {
@@ -208,7 +208,7 @@
       "theme": "Inseto",
       "questions": [
         {
-          "question": "Velocidade máxima que uma libélula pode alcançar (km/h):",
+          "question": "Velocidade máxima que uma libélula pode alcançar (quilômetros por hora):",
           "answer": 60
         },
         {
@@ -224,7 +224,7 @@
           "answer": 900000
         },
         {
-          "question": "Distância percorrida pela mariposa-monarca em sua migração do Canadá ao México (km):",
+          "question": "Distância percorrida pela mariposa-monarca em sua migração do Canadá ao México (quilômetros):",
           "answer": 4800
         },
         {
@@ -237,11 +237,11 @@
       "theme": "Oceano",
       "questions": [
         {
-          "question": "Profundidade da Fossa das Marianas, o ponto mais profundo do oceano (m):",
+          "question": "Profundidade da Fossa das Marianas, o ponto mais profundo do oceano (metros):",
           "answer": 10984
         },
         {
-          "question": "Distância que a Dorsal Meso atlântica se estende ao longo do fundo do Oceano Atlântico (km):",
+          "question": "Distância que a Dorsal Meso atlântica se estende ao longo do fundo do Oceano Atlântico (quilômetros):",
           "answer": 65000
         },
         {
@@ -249,11 +249,11 @@
           "answer": 30
         },
         {
-          "question": "Altura estimada da maior onda registrada durente um terremoto na Baía de Lituya(m):",
+          "question": "Altura estimada da maior onda registrada durente um terremoto na Baía de Lituya(metros):",
           "answer": 91
         },
         {
-          "question": "Diferença de altura entre a maré baixa e a maré alta na Baía de Fundy, no Canadá (m):",
+          "question": "Diferença de altura entre a maré baixa e a maré alta na Baía de Fundy, no Canadá (metros):",
           "answer": 18
         },
         {
@@ -303,7 +303,7 @@
           "answer": 40
         },
         {
-          "question": "Distância percorrida por um pato-real durante a migração sazonal (km):",
+          "question": "Distância percorrida por um pato-real durante a migração sazonal (quilômetros):",
           "answer": 2000
         },
         {
@@ -315,7 +315,7 @@
           "answer": 1000
         },
         {
-          "question": "Comprimento máximo que um pato-de-cabeça-vermelha pode possuir (cm):",
+          "question": "Comprimento máximo que um pato-de-cabeça-vermelha pode possuir (centímetros):",
           "answer": 50
         }
       ]
@@ -332,11 +332,11 @@
           "answer": 91
         },
         {
-          "question": "Tempo para ser realizado o gol mais rápido da história das Copasm, marcado por Hakan Şükür em 2002 (s):",
+          "question": "Tempo para ser realizado o gol mais rápido da história das Copasm, marcado por Hakan Şükür em 2002 (segundos):",
           "answer": 11
         },
         {
-          "question": "Duração da partida de futebol profissional mais longa (min):",
+          "question": "Duração da partida de futebol profissional mais longa (minutos):",
           "answer": 203
         },
         {
@@ -365,11 +365,11 @@
           "answer": 75
         },
         {
-          "question": "Diâmetro do maior vulcão conhecido do sistema solar, Monte Olimpo em Marte (km):",
+          "question": "Diâmetro do maior vulcão conhecido do sistema solar, Monte Olimpo em Marte (quilômetros):",
           "answer": 600
         },
         {
-          "question": "Quantidade de material (lava, cinzas e gases) liberada pela erupção do Monte Tambora, em 1815 (km³):",
+          "question": "Quantidade de material (lava, cinzas e gases) liberada pela erupção do Monte Tambora, em 1815 (quilômetros cúbicos):",
           "answer": 150
         },
         {
@@ -440,15 +440,15 @@
       "theme": "Chocolate",
       "questions": [
         {
-          "question": "Altura do maior coelho de chocolate produzido no mundo até 2024(cm):",
+          "question": "Altura do maior coelho de chocolate produzido no mundo até 2024(centímetros):",
           "answer": 452
         },
         {
-          "question": "Consumo médio de chocolate consumido anualmente por uma pessoa na Suiça em 2019 (kg):",
+          "question": "Consumo médio de chocolate consumido anualmente por uma pessoa na Suiça em 2019 (quilogramas):",
           "answer": 11
         },
         {
-          "question": "Peso da maior barra de chocolate já produzida até 2023 (kg):",
+          "question": "Peso da maior barra de chocolate já produzida até 2023 (quilogramas):",
           "answer": 5792
         },
         {
@@ -506,7 +506,7 @@
           "answer": 106
         },
         {
-          "question": "Número de países que desapareceriam se o nível do mar subisse 100 m em 2024:",
+          "question": "Número de países que desapareceriam se o nível do mar subisse 100 metros em 2024:",
           "answer": 8
         },
         {
@@ -514,11 +514,11 @@
           "answer": 44
         },
         {
-          "question": "Comprimento da fronteira da China (milhares de km):",
+          "question": "Comprimento da fronteira da China (milhares de quilômetros):",
           "answer": 22
         },
         {
-          "question": "Área do Suriname (milhares de km²):",
+          "question": "Área do Suriname (milhares de quilômetros quadrados):",
           "answer": 163
         }
       ]
@@ -531,7 +531,7 @@
           "answer": 54
         },
         {
-          "question": "Peso do Obelix (kg):",
+          "question": "Peso do Obelix (quilogramas):",
           "answer": 140
         },
         {
@@ -560,11 +560,11 @@
           "answer": 80
         },
         {
-          "question": "Velocidade média de voo de um pato selvagem (km/h):",
+          "question": "Velocidade média de voo de um pato selvagem (quilômetros por hora):",
           "answer": 80
         },
         {
-          "question": "Envergadura máxima de um albatroz (cm):",
+          "question": "Envergadura máxima de um albatroz (centímetro):",
           "answer": 370
         },
         {
@@ -589,7 +589,7 @@
           "answer": 8
         },
         {
-          "question": "Comprimento das garras do Wolverine (cm):",
+          "question": "Comprimento das garras do Wolverine (centímetros):",
           "answer": 30
         },
         {
@@ -607,6 +607,296 @@
         {
           "question": "Número de integrantes da equipe de titãs até o final da série animada 'Jovens Titãs':",
           "answer": 32
+        }
+      ]
+    },
+	{
+      "theme": "Fruta",
+      "questions": [
+        {
+          "question": "Número de calorias médio em uma banana:",
+          "answer": 105
+        },
+        {
+          "question": "Quantidade de vitamina C que 100g de morangos fornecem (miligramas):",
+          "answer": 60
+        },
+        {
+          "question": "Mililitros de água de coco que possui em média 19 calorias:",
+          "answer": 100
+        },
+        {
+          "question": "Porcentagem estimada de água na composição de uma melancia:",
+          "answer": 90
+        },
+        {
+          "question": "Quantidade de fibras presente em 1 quilograma de pêssego (gramas):",
+          "answer": 40
+        },
+        {
+          "question": "Número de calorias presente em 100 gramas de tamarindo seco:",
+          "answer": 239
+        }
+      ]
+    },
+	{
+      "theme": "Caneta",
+      "questions": [
+        {
+          "question": "Número estimado mínimo de palavras que podem ser escritas com uma caneta esferográfica padrão:",
+          "answer": 2000
+        },
+        {
+          "question": "Tempo máximo para que a tinta de uma caneta esferográfica seque no papel (segundos):",
+          "answer": 10
+        },
+        {
+          "question": "Número estimado de canetas produzidas a cada ano em todo o mundo (bilhões):",
+          "answer": 20
+        },
+        {
+          "question": "Valor de venda da caneta mais cara do mundo, a caneta Montblanc 146 'LeGrand' (milhões de dólares):",
+          "answer": 12
+        },
+        {
+          "question": "Porcentagem estimada de canetas de cor azul produzidas por ano:",
+          "answer": 65
+        },
+        {
+          "question": "Número estimado de canetas que um estudante médio usa ao longo de sua vida:",
+          "answer": 40
+        }
+      ]
+    },
+	{
+      "theme": "Fobia",
+      "questions": [
+        {
+          "question": "Número de letras presente no nome de fobias de palavras grandes:",
+          "answer": 33
+        },
+        {
+          "question": "Idade estimada em que pico de fobias ocorrem em uma pessoa:",
+          "answer": 9
+        },
+        {
+          "question": "Porcentagem estimada de mulheres entre os indivíduos com fobias:",
+          "answer": 70
+        },
+        {
+          "question": "Porcentagem estimada da população mundial que já teve nomofobia (medo de ficar sem o celular) em 2022:",
+          "answer": 66
+        },
+        {
+          "question": "Custo global do tratamento de transtornos de ansiedade em 2019 (bilhões de dólares):",
+          "answer": 42
+        },
+        {
+          "question": "Porcentagem estimada de redução na qualidade de vida que pessoas com fobia podem ter:",
+          "answer": 30
+        }
+      ]
+    },
+	{
+      "theme": "Sono",
+      "questions": [
+        {
+          "question": "Tempo estimado recomendado para recém-nascidos de sono por noite (horas):",
+          "answer": 17
+        },
+        {
+          "question": "Porcentagem estimada que o cérebro processa das experiências do dia durante o sono:",
+          "answer": 25
+        },
+        {
+          "question": "Tempo de sono diminuído de uma pessoa pela exposição exagerada à luz azul (minutos):",
+          "answer": 84
+        },
+        {
+          "question": "Tempo para finalizar um ciclo de sono (minutos):",
+          "answer": 90
+        },
+        {
+          "question": "Porcentagem de pessoas com depressão que possuem problemas com sono:",
+          "answer": 90
+        },
+        {
+          "question": "Porcentagem de aumento de doenças cardiovasculares em pessoas que dormem menos de 6 horas por dia:",
+          "answer": 45
+        }
+      ]
+    },
+	{
+      "theme": "Banho",
+      "questions": [
+        {
+          "question": "Tempo médio de banho de um adulto mundialmente (min):",
+          "answer": 11
+        },
+        {
+          "question": "Porcentagem estimada de pessoas que tomam banho diariamente no Brasil:",
+          "answer": 66
+        },
+        {
+          "question": "Porcentagem de melhora de qualidade do sono que a prática de banhos relaxantes pode proporcionar:",
+          "answer": 40
+        },
+        {
+          "question": "Temperatura mínima da água em ofurôs do Japão (ºC):",
+          "answer": 40
+        },
+        {
+          "question": "Porcentagem de redução de consumo de água na troca de um chuveiro convecional para um de baixo fluxo:",
+          "answer": 50
+        },
+        {
+          "question": "Tempo para aliviar dores musculares ao tomar banho com sal Epsom (min):",
+          "answer": 30
+        }
+      ]
+    },
+	{
+      "theme": "Lua",
+      "questions": [
+        {
+          "question": "Porcentagem aproximada da luz solar que atinge a Lua e é refletida para a Terra:",
+          "answer": 12
+        },
+        {
+          "question": "Diâmetro da Lua (quilômetros):",
+          "answer": 3474
+        },
+        {
+          "question": "Altura de salto na Lua de uma pessoa que salta 3 metros na Terra (metros):",
+          "answer": 18
+        },
+        {
+          "question": "Número de fases da Lua durante seu ciclo de lunação (incluindo intermediárias):",
+          "answer": 8
+        },
+        {
+          "question": "Área da superfície da Lua (milhões de quilômetros quadrados):",
+          "answer": 38
+        },
+        {
+          "question": "Número da maior amplitude térmica (variação entre dia e noite) registrada na Lua (ºC):",
+          "answer": 300
+        }
+      ]
+    },
+	{
+      "theme": "Sal",
+      "questions": [
+        {
+          "question": "Porcentagem de cloreto de sódio (NaCl) presente na composição do sal comum utilizado:",
+          "answer": 60
+        },
+        {
+          "question": "Peso de sódio presente em 1 grama de sal (miligramas):",
+          "answer": 400
+        },
+        {
+          "question": "Quantidade de sal por litro de água salgada nos oceanos (gramas):",
+          "answer": 35
+        },
+        {
+          "question": "Quantidade de sal utilizada para descongelar estradas e ruas nos EUA no inverno de 2020 (milhões de toneladas):",
+          "answer": 20
+        },
+        {
+          "question": "Ingestão média de sal por pessoa consumida diariamente (gramas):",
+          "answer": 10
+        },
+        {
+          "question": "Produção de sal realizada pela China no ano de 2022 (milhões de toneladas):",
+          "answer": 62
+        }
+      ]
+    },
+	{
+      "theme": "Cabelo",
+      "questions": [
+        {
+          "question": "Densidade média de fios de cabelo no couro cabeludo (fios por centímetros cúbicos):",
+          "answer": 2200
+        },
+        {
+          "question": "Porcentagem de homens afetados pela calvície até os 40 anos:",
+          "answer": 40
+        },
+        {
+          "question": "Número médio máximo de fios perdidos diariamente:",
+          "answer": 100
+        },
+        {
+          "question": "Número médio de fios de cabelo no couro cabeludo de uma pessoa loira (milhares):",
+          "answer": 150
+        },
+        {
+          "question": "Porcentagem de queratina presente no cabelo:",
+          "answer": 90
+        },
+        {
+          "question": "Porcentagem que o cabelo humano pode reter de seu peso em água:",
+          "answer": 30
+        }
+      ]
+    },
+	{
+      "theme": "Filme animado",
+      "questions": [
+        {
+          "question": "Número de desenhos a mão feitos para o filme 'Gertie the Dinosaur' (1914):",
+          "answer": 10000
+        },
+        {
+          "question": "Tempo de duração do filme 'Toy Story' (minutos):",
+          "answer": 77
+        },
+        {
+          "question": "Quantidade de terabytes de dados para renderização do filme 'Os Incríveis 2' (2018):",
+          "answer": 40
+        },
+        {
+          "question": "Número de filmes de animação lançados em 2019 (incluindo produções em 2D, 3D e stop-motion):",
+          "answer": 50
+        },
+        {
+          "question": "Número de peças de figurino e cenários criados para o filme em stop-motion 'Coraline' (2009) (milhares):",
+          "answer": 30
+        },
+        {
+          "question": "Número de prêmios recebidos por 'Shrek' (2001):",
+          "answer": 18
+        }
+      ]
+    },
+	{
+      "theme": "Moda",
+      "questions": [
+        {
+          "question": "Comprimento máximo de uma gravata regular (centímetros):",
+          "answer": 147
+        },
+        {
+          "question": "Duração do desfile de moda mais longo (horas):",
+          "answer": 24
+        },
+        {
+          "question": "Idade de Gianni Versace ao morrer:",
+          "answer": 50
+        },
+        {
+          "question": "Número médio de vezes que uma peça de roupa é usada:",
+          "answer": 30
+        },
+        {
+          "question": "Número de diamantes na bolsa de mão Mouawad 1001 Noites, a mais cara do mundo:",
+          "answer": 4517
+        },
+        {
+          "question": "Porcentagem de roupas feitas com poliéster em 2018:",
+          "answer": 60
         }
       ]
     }

@@ -81,23 +81,26 @@ class NumberPickerDialogState extends State<DialogPlayerNumber> {
                 Navigator.of(context).pop();
               },
               child: const Text(
-                'Desistir',
+                'DESISTIR',
                 style: TextStyle(
                   fontSize: 20,
+                  color: Color.fromARGB(255, 85, 85, 85),
                 ),
               ),
             ),
             TextButton(
               onPressed: () {
+                int matches = playersNumber - 1;
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => GamePage(totalMatches: playersNumber)),
+                  MaterialPageRoute(builder: (context) => GamePage(totalMatches: matches)),
                 );
               },
               child: const Text(
-                'Começar',
+                'COMEÇAR',
                 style: TextStyle(
                   fontSize: 20,
+                  color: Colors.black,
                 ),
               ),
             ),
