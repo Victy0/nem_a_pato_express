@@ -38,7 +38,7 @@ class DialogInfoGame extends StatelessWidget {
             TextButton(
               onPressed: () => Navigator.pop(context),
               child: const Text(
-                'OK',
+                "QUACK!",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
