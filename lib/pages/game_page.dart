@@ -195,18 +195,26 @@ class GamePageState extends State<GamePage> {
                     ),
                     answerRevealed
                       ? currentMatch == widget.totalMatches
-                        ? const Align(
+                        ? Align(
                             alignment: Alignment.bottomCenter,
                             child: Padding(
-                              padding: EdgeInsets.all(16.0),
-                              child: Text(
-                                "FIM DE JOGO!",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 30,
-                                  color: Color.fromARGB(255, 253, 42, 42)
-                                ),
-                              )
+                              padding: const EdgeInsets.all(16.0),
+                              child: IconButton(
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => const SelectGameModePage()),
+                                  );
+                                },
+                                icon: const Text(
+                                  "FIM DE JOGO!",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 30,
+                                    color: Color.fromARGB(255, 255, 21, 21)
+                                  ),
+                                )
+                              ),
                             ),
                           )
                         : Align(
