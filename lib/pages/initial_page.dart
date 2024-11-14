@@ -14,9 +14,12 @@ class InitialPage extends StatefulWidget {
 }
 
 class InitialPageState extends State<InitialPage> {
+  final player = AudioPlayer();
+
   @override
   void initState() {
     super.initState();
+    player.play(AssetSource('sounds/quack-trail.mp3'));
     checkFirstAccess();
   }
 
@@ -38,9 +41,7 @@ class InitialPageState extends State<InitialPage> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    final player = AudioPlayer();
-    
+  Widget build(BuildContext context) {    
     return Scaffold(
       backgroundColor: const Color.fromARGB(244, 253, 219, 23),
       body: GestureDetector(
