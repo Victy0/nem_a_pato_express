@@ -1,15 +1,47 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:nem_a_pato_app/component/dialog_first_access.dart';
 import 'package:nem_a_pato_app/component/dialog_info_game.dart';
+import 'package:nem_a_pato_app/component/version_app_info.dart';
 import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-class InitialPage extends StatelessWidget {
+class InitialPage extends StatefulWidget {
   const InitialPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    final player = AudioPlayer();
-    
+  InitialPageState createState() => InitialPageState();
+}
+
+class InitialPageState extends State<InitialPage> {
+  final player = AudioPlayer();
+
+  @override
+  void initState() {
+    super.initState();
+    player.play(AssetSource('sounds/quack-trail.mp3'));
+    checkFirstAccess();
+  }
+
+  Future<void> checkFirstAccess() async {
+    final prefs = await SharedPreferences.getInstance();
+    final isFirstTime = prefs.getBool('isFirstAccess') ?? true;
+
+    if (isFirstTime) {
+      showFirstAccessDialog();
+      prefs.setBool('isFirstAccess', false);
+    }
+  }
+
+  Future<void> showFirstAccessDialog() async {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) => const DialogFirstAccess(),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {    
     return Scaffold(
       backgroundColor: const Color.fromARGB(244, 253, 219, 23),
       body: GestureDetector(
@@ -76,9 +108,7 @@ class InitialPage extends StatelessWidget {
               alignment: Alignment.bottomLeft,
               child: Padding(
                 padding: EdgeInsets.all(16.0),
-                child: Text (
-                  "Versão 1.0.1"
-                )
+                child: VersionAppInfo(),
               ),
             ),
             const Align(
@@ -94,4 +124,3 @@ class InitialPage extends StatelessWidget {
     );
   }
 }
-
