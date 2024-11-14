@@ -5,6 +5,6 @@ class VersionAppInfo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text("Versão 1.0.1");
+    return const Text("Versão 1.0.2");
   }
 }
