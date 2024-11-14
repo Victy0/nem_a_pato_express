@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/pages/game_page.dart';
 
@@ -25,6 +26,8 @@ class NumberPickerDialogState extends State<DialogPlayerNumber> {
 
   @override
   Widget build(BuildContext context) {
+    final player = AudioPlayer();
+    
     return AlertDialog(
       title: const Center( 
         child: Text(
@@ -89,7 +92,8 @@ class NumberPickerDialogState extends State<DialogPlayerNumber> {
               ),
             ),
             TextButton(
-              onPressed: () {
+              onPressed: () async  {
+                await player.play(AssetSource('sounds/quack-quack.mp3'));
                 int matches = playersNumber - 1;
                 Navigator.push(
                   context,

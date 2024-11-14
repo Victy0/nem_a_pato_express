@@ -24,7 +24,7 @@ class DialogInfoGame extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Neste jogo, o importante não é saber a resposta, você só precisa chutar um número.\nSó não exagere, pois alguém pode dizer “Nem a pato!” e desafiar seu palpite.\n\nEm cada rodada de Nem a Pato!, uma pergunta é selecionada e lida em voz alta, e cada jogador tentará adivinhar a resposta numérica em seu turno. Se um palpite for contestado, a resposta é verificada. Se a resposta estiver certa, você continua no jogo. Se a resposta estiver errada, você sai do jogo.\nNo final da partida, o último jogador vence!',
+                  'Neste jogo, o importante não é saber a resposta, você só precisa chutar um número.\nSó não exagere, pois alguém pode dizer “Nem a pato!” e desafiar seu palpite.\n\nEm cada rodada, uma pergunta é selecionada e lida em voz alta, e cada jogador tentará adivinhar a resposta numérica em seu turno. Se um palpite for contestado, a resposta é verificada.\nSe o palpite for menor ou igual a resposta, o contestador sai do jogo. Mas se o palpite for maior que a resposta, você sai do jogo.\nNo final da partida, o último jogador vence!',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
