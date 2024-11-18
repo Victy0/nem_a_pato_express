@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nem_a_pato_app/component/dialog_players_number.dart';
-import 'package:nem_a_pato_app/component/dialog_info_game_mode.dart';
+import 'package:nem_a_pato_app/components/dialog_players_number.dart';
+import 'package:nem_a_pato_app/components/dialog_info_game_mode.dart';
 
 class GameMode extends StatelessWidget {
   final String modeName;

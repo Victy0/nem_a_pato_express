@@ -1,8 +1,8 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:nem_a_pato_app/component/dialog_first_access.dart';
-import 'package:nem_a_pato_app/component/dialog_info_game.dart';
-import 'package:nem_a_pato_app/component/version_app_info.dart';
+import 'package:nem_a_pato_app/components/dialog_first_access.dart';
+import 'package:nem_a_pato_app/components/dialog_info_game.dart';
+import 'package:nem_a_pato_app/components/version_app_info.dart';
 import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

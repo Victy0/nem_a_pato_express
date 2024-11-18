@@ -2,9 +2,9 @@ import 'dart:math';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:nem_a_pato_app/model/question.dart';
+import 'package:nem_a_pato_app/models/question.dart';
 import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
-import 'package:nem_a_pato_app/service/data_service.dart';
+import 'package:nem_a_pato_app/services/data_service.dart';
 
 class GamePage extends StatefulWidget {
   final int totalMatches;

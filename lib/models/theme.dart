@@ -1,4 +1,4 @@
-import 'package:nem_a_pato_app/model/question.dart';
+import 'package:nem_a_pato_app/models/question.dart';
 
 class Theme {
   final String theme;
