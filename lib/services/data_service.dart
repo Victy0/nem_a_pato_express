@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart' as root_bundle;
 import 'dart:convert';
 
-import 'package:nem_a_pato_app/model/question.dart';
-import 'package:nem_a_pato_app/model/theme.dart';
+import 'package:nem_a_pato_app/models/question.dart';
+import 'package:nem_a_pato_app/models/theme.dart';
 
 class DataService {
   Map<String, dynamic> dataLoaded = {};
