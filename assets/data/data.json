@@ -1,5 +1,5 @@
 {
-  "themeQuantity": 31,
+  "themeQuantity": 36,
   "themeList": [
     {
       "theme": "Gato",
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "theme": "Pássaro",
+      "theme": "Ave",
       "questions": [
         {
           "question": "Número máximo de vezes que um beija-flor bate as asas em um segundo:",
@@ -610,7 +610,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Fruta",
       "questions": [
         {
@@ -639,7 +639,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Caneta",
       "questions": [
         {
@@ -668,7 +668,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Fobia",
       "questions": [
         {
@@ -697,7 +697,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Sono",
       "questions": [
         {
@@ -726,7 +726,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Banho",
       "questions": [
         {
@@ -755,7 +755,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Lua",
       "questions": [
         {
@@ -784,7 +784,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Sal",
       "questions": [
         {
@@ -813,7 +813,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Cabelo",
       "questions": [
         {
@@ -842,7 +842,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Filme animado",
       "questions": [
         {
@@ -871,7 +871,7 @@
         }
       ]
     },
-	{
+    {
       "theme": "Moda",
       "questions": [
         {
@@ -897,6 +897,151 @@
         {
           "question": "Porcentagem de roupas feitas com poliéster em 2018:",
           "answer": 60
+        }
+      ]
+    },
+    {
+      "theme": "Palavra",
+      "questions": [
+        {
+          "question": "Número de palavras na música 'Faroeste cabloco':",
+          "answer": 1223
+        },
+        {
+          "question": "Número total de palavras nas 38 peças de William Shakespeare (milhares):",
+          "answer": 836
+        },
+        {
+          "question": "Velocidade média de digitação (palavras por minuto):",
+          "answer": 41
+        },
+        {
+          "question": "Número de palavras no dicionário Oxford de Latim (milhares):",
+          "answer": 39
+        },
+        {
+          "question": "Número de letras da palavra mais longa do idioma português (Brasil):",
+          "answer": 46
+        },
+        {
+          "question": "Média de número de palavras por frase:",
+          "answer": 18
+        }
+      ]
+    },
+    {
+      "theme": "Grampo de papel",
+      "questions": [
+        {
+          "question": "Comprimento de um grampo número 1 (milímetros):",
+          "answer": 10
+        },
+        {
+          "question": "Número máximo de folhas que um grampo pequeno convencional pode prender:",
+          "answer": 20
+        },
+        {
+          "question": "Recorde de maior número de folhas grampeadas de uma só por grampo de tamanho industrial (milhares):",
+          "answer": 351
+        },
+        {
+          "question": "Número de unidades que uma caixa tradicional de grampos de escritório geralmente contém:",
+          "answer": 1000
+        },
+        {
+          "question": "Recorde para o maior número de grampos colocados em uma linha, sem abrir ou romper (milhares):",
+          "answer": 30
+        },
+        {
+          "question": "Número estimado de grampos usados anualmente por um funcionário de empresa média americana:",
+          "answer": 500
+        }
+      ]
+    },
+    {
+      "theme": "Espirro",
+      "questions": [
+        {
+          "question": "Velocidade que o ar pode ser expelido devido a um espirro (quilômetros por hora):",
+          "answer": 160
+        },
+        {
+          "question": "Número de partículas de saliva e muco expelido por um espirro (milhares):",
+          "answer": 40
+        },
+        {
+          "question": "Número estimado máximo de vezes que uma pessoa saudável pode espirrar diariamente:",
+          "answer": 10
+        },
+        {
+          "question": "Pressão interna gerada por um espirro forte (milímetros de mercúrio):",
+          "answer": 2000
+        },
+        {
+          "question": "Porcentagem da média da população mundial que espirram quando expostas à luz intensa:",
+          "answer": 27
+        },
+        {
+          "question": "Tempo máximo estimado de duração de um espirro (milissegundos):",
+          "answer": 400
+        }
+      ]
+    },
+    {
+      "theme": "Cor",
+      "questions": [
+        {
+          "question": "Número aproximado de cores diferentes que o olho humano pode distinguir (milhões):",
+          "answer": 10
+        },
+        {
+          "question": "Número de variações de cores de vermelho existentes no modelo de cores RGB:",
+          "answer": 256
+        },
+        {
+          "question": "Número de cores presente na paleta do sistema Pantone (padronização de cores em design gráfico e impressão):",
+          "answer": 1800
+        },
+        {
+          "question": "Porcentagem da população mundial que tem o azul como preferida:",
+          "answer": 40
+        },
+        {
+          "question": "Porcentagem estimada de decisões de compra influenciadas pelas cores:",
+          "answer": 85
+        },
+        {
+          "question": "Número de cores presente na paleta Web Safe (cores exibidas de forma consistente em monitores e navegadores de internet):",
+          "answer": 216
+        }
+      ]
+    },
+    {
+      "theme": "Carro",
+      "questions": [
+        {
+          "question": "Velocidade que o Bugatti Chiron, um dos carros de produção mais rápidos do mundo, atinge (quilômetros por hora):",
+          "answer": 420
+        },
+        {
+          "question": "Quantidade de energia consumida pelo Tesla Modelo 3 em 100 k, (quilowatts por hora):",
+          "answer": 15
+        },
+        {
+          "question": "Quantidade de CO2 estimada emitida por um carro de gasolina convencional por km (gramas)",
+          "answer": 150
+        },
+        {
+          "question": "Número estimado de peças que um carro típico possui (milhares):",
+          "answer": 35
+        },
+        {
+          "question": "Número de unidades vendidas pelo mercado global de automóveis, em 2022 (milhões de dólares):",
+          "answer": 80
+        },
+        {
+          "question": "Número máximo de airbags disponibilizados por fabricantes em carros típicos, em 2024:",
+          "answer": 10
         }
       ]
     }

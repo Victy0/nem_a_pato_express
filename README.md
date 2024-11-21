@@ -19,7 +19,7 @@ Disponível em breve!
 
 **1** - Instalar SDK do Flutter e configurar IDE caso necessário:
 
-    Documentação de instalação do flutter: https://docs.flutter.dev/get-started/install
+ - Documentação de instalação do flutter: https://docs.flutter.dev/get-started/install
 
 **2** - Clonar o repositório:
 
@@ -31,7 +31,7 @@ Disponível em breve!
 
 **5** - Rodar o flutter:
 
-    Documentação sobre comandos do flutter: https://docs.flutter.dev/reference/flutter-cli
+ - Documentação sobre comandos do flutter: https://docs.flutter.dev/reference/flutter-cli
 
 
 #  Estrutura de diretórios
