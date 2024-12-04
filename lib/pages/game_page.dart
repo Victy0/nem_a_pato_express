@@ -19,8 +19,8 @@ class GamePage extends StatefulWidget {
 }
 
 class GamePageState extends State<GamePage> {
-  final DataService dataService = DataService();
-  final player = AudioPlayer();
+  DataService dataService = DataService();
+  AudioPlayer player = AudioPlayer();
   int themeNumber = 0;
   String theme = "";
   String question = "";
@@ -65,7 +65,7 @@ class GamePageState extends State<GamePage> {
   }
 
   void showAnswer() async {
-    await player.play(AssetSource('sounds/quack.mp3'));
+    player.play(AssetSource('sounds/quack.mp3'));
     Future.delayed(const Duration(milliseconds: 20), () {
       setState(() {
         answerRevealed = true;
@@ -74,12 +74,6 @@ class GamePageState extends State<GamePage> {
   }
 
   void loadNextQuestion() {
-    if(currentMatch == widget.totalMatches) {
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => const SelectGameModePage()),
-      );
-    }
     loadData();
     setState(() {
       answerRevealed = false;
@@ -139,57 +133,60 @@ class GamePageState extends State<GamePage> {
                     Expanded(
                       child: Padding(
                         padding: const EdgeInsets.all(20.0),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              question,
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 30,
-                              ),
-                            ),
-                            const SizedBox(height: 30),
-                            answerRevealed 
-                              ? Padding(
-                                padding: const EdgeInsets.only(top: 20),
-                                child: Text(
-                                  answer.toString(),
-                                  style: const TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 40,
-                                  ),
+                        child: SingleChildScrollView(
+                          child:Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                question,
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 30,
                                 ),
-                              )
-                              : IconButton(
-                                onPressed: () {
-                                  showAnswer();
-                                },
-                                icon: Container(
-                                  width: 250,
-                                  height: 60,
-                                  decoration: BoxDecoration(
-                                    color: const Color.fromARGB(244, 253, 219, 23),
-                                    borderRadius: BorderRadius.circular(5),
-                                    border: Border.all(
-                                      color: const Color.fromARGB(255, 0, 0, 0),
-                                      width: 3,
+                              ),
+                              const SizedBox(height: 30),
+                              answerRevealed 
+                                ? Padding(
+                                  padding: const EdgeInsets.only(top: 20),
+                                  child: Text(
+                                    key: const Key('answer'),
+                                    answer.toString(),
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 40,
                                     ),
                                   ),
-                                  child: const Center(
-                                    child: Text(
-                                      "RESPOSTA",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 25,
+                                )
+                                : IconButton(
+                                  onPressed: () {
+                                    showAnswer();
+                                  },
+                                  icon: Container(
+                                    width: 250,
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      color: const Color.fromARGB(244, 253, 219, 23),
+                                      borderRadius: BorderRadius.circular(5),
+                                      border: Border.all(
+                                        color: const Color.fromARGB(255, 0, 0, 0),
+                                        width: 3,
+                                      ),
+                                    ),
+                                    child: const Center(
+                                      child: Text(
+                                        "RESPOSTA",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 25,
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                              ),
-                            // condictional end
-                          ],
+                              // condictional end
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -207,6 +204,7 @@ class GamePageState extends State<GamePage> {
                                   );
                                 },
                                 icon: const Text(
+                                  key: Key('end game'),
                                   "FIM DE JOGO!",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
@@ -226,6 +224,7 @@ class GamePageState extends State<GamePage> {
                                   loadNextQuestion();
                                 },
                                 icon: Image.asset(
+                                  key: const Key('next'),
                                   "assets/images/continue.png",
                                   height: 55,
                                 ),
@@ -252,6 +251,7 @@ class GamePageState extends State<GamePage> {
                   );
                 },
                 icon: Image.asset(
+                  key: const Key('exit'),
                   "assets/images/exit.png",
                   height: 70,
                 ),
@@ -269,6 +269,7 @@ class GamePageState extends State<GamePage> {
                     jumpQuestion();
                   },
                 icon: Image.asset(
+                  key: const Key('jump'),
                   "assets/images/jump.png",
                   height: 70,
                   opacity: answerRevealed ? const AlwaysStoppedAnimation(.5) : const AlwaysStoppedAnimation(1),
