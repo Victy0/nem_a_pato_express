@@ -93,7 +93,7 @@ class NumberPickerDialogState extends State<DialogPlayerNumber> {
             ),
             TextButton(
               onPressed: () async  {
-                await player.play(AssetSource('sounds/quack-quack.mp3'));
+                player.play(AssetSource('sounds/quack-quack.mp3'));
                 int matches = playersNumber - 1;
                 Navigator.push(
                   context,
