@@ -1,5 +1,5 @@
 {
-  "themeQuantity": 36,
+  "themeQuantity": 45,
   "themeList": [
     {
       "theme": "Gato",
@@ -1042,6 +1042,267 @@
         {
           "question": "Número máximo de airbags disponibilizados por fabricantes em carros típicos, em 2024:",
           "answer": 10
+        }
+      ]
+    },
+    {
+      "theme": "Maquiagem",
+      "questions": [
+        {
+          "question": "Número médio de produtos de maquiagem que a mulher tem em sua coleção:",
+          "answer": 40
+        },
+        {
+          "question": "Tempo estimado de venda de batons por segundos:",
+          "answer": 10
+        },
+        {
+          "question": "Maior quantidade de cores diferentes em uma paleta de sombras já produzida:",
+          "answer": 360
+        },
+        {
+          "question": "Tempo médio de validade de uma base ou corretivo (meses):",
+          "answer": 12
+        },
+        {
+          "question": "Tempo estimado que uma mulher gasta para se maquiar por dia (minutos):",
+          "answer": 20
+        },
+        {
+          "question": "Porcentagem de homens que utilizam maquiagem, e usam para esconder imperfeições ou melhorar a aparência da pele:",
+          "answer": 40
+        }
+      ]
+    },
+    {
+      "theme": "Moeda",
+      "questions": [
+        {
+          "question": "Número de moedas comemorativas emitidas no Reino Unido em 2017 (milhões):",
+          "answer": 10
+        },
+        {
+          "question": "Número de diferentes moedas oficiais (real, dólar, euro...) em circulação ao redor do mundo em 2023:",
+          "answer": 180
+        },
+        {
+          "question": "Valor movimentado no mercado global de moedas colecionáveis em 2020 (bilhões de dólares):",
+          "answer": 10
+        },
+        {
+          "question": "Número de onças de Krugerrand (moedas de ouro) haviam sido produzidas desde sua criação em 2021 (milhões):",
+          "answer": 50
+        },
+        {
+          "question": "Número de unidades totais de bitcoins em circulação em 2023 (milhões de unidades):",
+          "answer": 19
+        },
+        {
+          "question": "Porcentagem de circulação da cédula de 100 reais utilizada no total das cédulas em circulação no Brasil:",
+          "answer": 50
+        }
+      ]
+    },
+    {
+      "theme": "Boné",
+      "questions": [
+        {
+          "question": "Números estimados de bonés personalizados produzidos anualmente nos Estados Unidos (milhões):",
+          "answer": 50
+        },
+        {
+          "question": "Porcentagem que bonés de times esportivos representam no mercado global de bonés:",
+          "answer": 25
+        },
+        {
+          "question": "Valor do boné modelo New Era 59FIFTY com diamantes, o mais caro do mundo (milhões de dólares):",
+          "answer": 25
+        },
+        {
+          "question": "Porcentagem que bonés de aba reta representam no mercado de bonés:",
+          "answer": 40
+        },
+        {
+          "question": "Porcentagem de bonés vendidos em lojas especializadas que usam materiais sustentáveis em 2022:",
+          "answer": 38
+        },
+        {
+          "question": "Número de unidades de boné produzidos no Brasil por ano (milhões):",
+          "answer": 30
+        }
+      ]
+    },
+    {
+      "theme": "Tijolo",
+      "questions": [
+        {
+          "question": "Número aproximado de tijolos que o Brasil produziu em 2021 (bilhões):",
+          "answer": 6
+        },
+        {
+          "question": "Valor aproximado avaliado para a indústria de fabricação de tijolos globalmente (bilhões de dólares):",
+          "answer": 60
+        },
+        {
+          "question": "Temperatura aproximada necessária para produzir tijolos cerâmicos de alta qualidade (graus Celsius):",
+          "answer": 1000
+        },
+        {
+          "question": "Porcentagem aproximada da produção de tijolos globalmente voltada para alternativas sustentáveis em 2020:",
+          "answer": 15
+        },
+        {
+          "question": "Porcentagem de aumento da luminosidade de um ambiente de tijolos de vidro em comparação à tijolos normais:",
+          "answer": 40
+        },
+        {
+          "question": "Número estimado de tijolos que a indústria da construção usa em todo o mundo (bilhões):",
+          "answer": 250
+        }
+      ]
+    },
+    {
+      "theme": "Medalha",
+      "questions": [
+        {
+          "question": "Número de medalhas distruibuidas nos Jogos Olímpicos de Verão de Tóquio 2020:",
+          "answer": 1001
+        },
+        {
+          "question": "Peso de ouro presente nas medalhas de ouro dos Jogos Olímpicos (gramas):",
+          "answer": 6
+        },
+        {
+          "question": "Número de medalhas de bronze distribuidas nos Jogos Pan-Americanos de 2019:",
+          "answer": 459
+        },
+        {
+          "question": "Número de medalhas conquistadas por Michael Phelps (o nadador norte-americano) em sua carreira, de 2004 a 2016:",
+          "answer": 23
+        },
+        {
+          "question": "Número de medalhas conquistadas pelos Estados Unidos nos Jogos Pan-Americanos de 2019, no Peru:",
+          "answer": 293
+        },
+        {
+          "question": "Porcenagem de cobre presente na composição de uma medalha de cobre dos Jogos Olímpicos:",
+          "answer": 95
+        }
+      ]
+    },
+    {
+      "theme": "Fórmula 1",
+      "questions": [
+        {
+          "question": "Número de vitórias de Lewis Hamilton até 2023:",
+          "answer": 103
+        },
+        {
+          "question": "Número de corridas da temporada de Fórmula 1 em 2023:",
+          "answer": 23
+        },
+        {
+          "question": "Número de equipes participante na primeira temporada, em 1950:",
+          "answer": 7
+        },
+        {
+          "question": "Número de pilotos competindo na temporada de 1952, a maior já registrada:",
+          "answer": 36
+        },
+        {
+          "question": "Número de voltas completadas em Grandes Prêmios por Michael Schumacher (milhares):",
+          "answer": 16
+        },
+        {
+          "question": "Número de vitórias que a Ferrari possui em Grandes Prêmios, até 2023:",
+          "answer": 238
+        }
+      ]
+    },
+    {
+      "theme": "E-mail",
+      "questions": [
+        {
+          "question": "Porcentagem aproximada de e-mails comerciais em relação a todos os e-mails enviados globalmente:",
+          "answer": 50
+        },
+        {
+          "question": "Tempo médio de resposta de um e-mail de trabalho (minutos):",
+          "answer": 120
+        },
+        {
+          "question": "Número estimado de e-mails de spam enviados por dia em todo mundo no ano de 2023 (bilhões):",
+          "answer": 355
+        },
+        {
+          "question": "Número médio de e-mails que um profissional de escritório recebe por dia, entre e-mails de trabalho e pessoais:",
+          "answer": 120
+        },
+        {
+          "question": "Porcentagem de e-mails dos totais abertos em dispositivos móveis, como smartphones e tablets:",
+          "answer": 55
+        },
+        {
+          "question": "Porcentagem de empresas que utilizaram e-mail como forma principal de comunicação com clientes e fornecedores em 2020:",
+          "answer": 94
+        }
+      ]
+    },
+    {
+      "theme": "Roupa",
+      "questions": [
+        {
+          "question": "Peso médio de uma camiseta padrão de algodão (gramas):",
+          "answer": 180
+        },
+        {
+          "question": "Número médio de peças de roupa que uma pessoa compra por ano:",
+          "answer": 65
+        },
+        {
+          "question": "Ciclo de vida da maioria das roupas (anos):",
+          "answer": 3
+        },
+        {
+          "question": "Litros de água aproximados para produzir uma única camiseta de algodão:",
+          "answer": 2700
+        },
+        {
+          "question": "Peso estimado de desperdício têxtil geradas anualmente em todo o mundo (milhões de toneladas):",
+          "answer": 92
+        },
+        {
+          "question": "Porcentagem das roupas no mundo que são feitas de fibras sintéticas:",
+          "answer": 63
+        }
+      ]
+    },
+    {
+      "theme": "Pneu",
+      "questions": [
+        {
+          "question": "Porcentagem de pneu reciclados dos pneus descartados anualmente em todo mundo:",
+          "answer": 30
+        },
+        {
+          "question": "Porcentagem de microplásticos que chegam ao oceano devido o desgaste de pneus:",
+          "answer": 28
+        },
+        {
+          "question": "Número de pneus em miniatura fabricado pela LEGO por ano (milhões):",
+          "answer": 700
+        },
+        {
+          "question": "Pressão média recomendada para pneus de aeronaves (PSI):",
+          "answer": 200
+        },
+        {
+          "question": "Comprimento médio de fio de aço em um pneu radial (metros):",
+          "answer": 50
+        },
+        {
+          "question": "Número de aterrissagens máxima que pneus de aviões comerciais sofrem antes de serem recapados ou substituídos:",
+          "answer": 250
         }
       ]
     }
