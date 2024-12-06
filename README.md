@@ -19,7 +19,7 @@ Disponível em breve!
 
 **1** - Instalar SDK do Flutter e configurar IDE caso necessário:
 
-    Documentação de instalação do flutter: https://docs.flutter.dev/get-started/install
+ - Documentação de instalação do flutter: https://docs.flutter.dev/get-started/install
 
 **2** - Clonar o repositório:
 
@@ -31,7 +31,7 @@ Disponível em breve!
 
 **5** - Rodar o flutter:
 
-    Documentação sobre comandos do flutter: https://docs.flutter.dev/reference/flutter-cli
+ - Documentação sobre comandos do flutter: https://docs.flutter.dev/reference/flutter-cli
 
 
 #  Estrutura de diretórios
@@ -40,13 +40,13 @@ Pode-se destacar 5 principais diretórios:
 
 :small_blue_diamond: **assets**: diretório com arquivos de imagens, áudios e json com conteúdo de jogo para ser utilizado. pela aplicação
 
-:small_blue_diamond: **components**: componentes flutters que podem ser utilizados em templates de páginas da aplicação.
+:small_blue_diamond: **components**: diretório com componentes flutters que podem ser utilizados em templates de páginas da aplicação.
 
-:small_blue_diamond: **models**: estruturas de dados referentes ao objetos manipulados pela aplicação.
+:small_blue_diamond: **models**: diretório com estruturas de dados referentes ao objetos manipulados pela aplicação.
 
-:small_blue_diamond: **pages**: templates de páginas de navegação da aplicação.
+:small_blue_diamond: **pages**: diretório com templates de páginas de navegação da aplicação.
 
-:small_blue_diamond: **services**: serviços utilizados no ciclo de vida de operações da aplicação.
+:small_blue_diamond: **services**: diretório com serviços utilizados no ciclo de vida de operações da aplicação.
 
     |____assets
 

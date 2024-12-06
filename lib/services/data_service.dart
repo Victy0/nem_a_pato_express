@@ -16,7 +16,6 @@ class DataService {
       dataLoaded = jsonDecode(content);
       return dataLoaded;
     } catch (e) {
-      print('Erro ao carregar o arquivo: $e');
       return {};
     }
   }
@@ -26,7 +25,6 @@ class DataService {
 
     if (dataLoaded.containsKey('themeQuantity')) {
       var themeNumber = dataLoaded['themeQuantity'] as int;
-
       return themeNumber;
     } else {
       return 0;
@@ -38,7 +36,6 @@ class DataService {
 
     if (datas.containsKey('themeList')) {
       var listaTemas = datas['themeList'] as List;
-
       var tema = listaTemas.firstWhere(
         (item) => item['themeNumber'] == themeIndex,
         orElse: () => null,

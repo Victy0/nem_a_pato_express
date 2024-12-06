@@ -22,18 +22,20 @@ class DialogFirstAccessState extends State<DialogFirstAccess> {
           ),  
         ),
       ),
-      content: const Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            'O app "Nem a Pato! express" é uma versão adaptada e simplificada do jogo de cartas, estratégia e trívia "Nem a pato!", inventado por Rodrigo Rego e disponibilizado pela Grok Games no Brasil.\n\nCaso goste do jogo, queira jogar partidas mais complexas e com maiores desafios ou ter uma cópia física do jogo, é aconselhável a aquisição do jogo "Nem a pato!".',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 20,
+      content: const SingleChildScrollView ( 
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'O app "Nem a Pato! express" é uma versão adaptada e simplificada do jogo de cartas, estratégia e trívia "Nem a pato!", inventado por Rodrigo Rego e disponibilizado pela Grok Games no Brasil.\n\nCaso goste do jogo, queira jogar partidas mais complexas e com maiores desafios ou ter uma cópia física do jogo, é aconselhável a aquisição do jogo "Nem a pato!".',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
             ),
-          ),
-        ]
+          ]
+        ),
       ),
       actions: <Widget>[
         TextButton(
