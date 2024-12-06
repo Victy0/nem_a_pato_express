@@ -98,7 +98,7 @@ class GamePageState extends State<GamePage> {
               padding: const EdgeInsets.all(16.0),
               child: Container(
                 width: 350,
-                height: 650,
+                height: 600,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
