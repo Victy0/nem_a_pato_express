@@ -21,11 +21,11 @@
           "answer": 130
         },
         {
-          "question": "Número máximo de batidas por minuto que o coração de um gato saudável:",
+          "question": "Número máximo de batidas por minuto do coração de um gato saudável:",
           "answer": 140
         },
         {
-          "question": "Peso máximo de um gato da raça Maine Coon - raça com maiores gatos em quesito de altura (quilogramas):",
+          "question": "Peso máximo de um gato da raça Maine Coon, raça com maiores gatos em quesito de altura (quilogramas):",
           "answer": 12
         }
       ]
@@ -92,11 +92,11 @@
       "theme": "Cerveja",
       "questions": [
         {
-          "question": "Litros de cerveja por habitante na República Checa consumidos em 2016:",
+          "question": "Litros de cerveja consumidos por habitante na República Checa durante o ano de 2016:",
           "answer": 143
         },
         {
-          "question": "Consumo global de cerveja estimado em 2021 (bilhões de litros):",
+          "question": "Consumo global de cerveja em 2021 (bilhões de litros):",
           "answer": 190
         },
         {
@@ -104,7 +104,7 @@
           "answer": 8000
         },
         {
-          "question": "Quantidade de sabores que diferentes variedades de lupo estimado podem resultar:",
+          "question": "Quantidade doferentes de sabores que variedades de lupo podem resultar:",
           "answer": 300
         },
         {
@@ -133,12 +133,12 @@
           "answer": 28800
         },
         {
-          "question": "Número máximo estimado de células de pele que o corpo perde por minuto:",
-          "answer": 40000
+          "question": "Número máximo estimado de células de pele que o corpo perde por minuto (milhares):",
+          "answer": 40
         },
         {
-          "question": "Número estimado de conexões que um único neurônio pode realizar com outros neurônios:",
-          "answer": 10000
+          "question": "Número estimado de conexões que um único neurônio pode realizar com outros neurônios (milhares):",
+          "answer": 10
         },
         {
           "question": "Tipos diferentes de bactérias presentes no umbigo de uma pessoa:",
@@ -154,15 +154,15 @@
           "answer": 550
         },
         {
-          "question": "Velocidade do som no ar a uma temperatura ambiente de 20ºC (metros por segundo):",
+          "question": "Velocidade do som no ar, a uma temperatura ambiente de 20ºC (metros por segundo):",
           "answer": 343
         },
         {
-          "question": "Altitude que geralmente as aeronaves voam:",
+          "question": "Altitude que geralmente as aeronaves voam (metros):",
           "answer": 10000
         },
         {
-          "question": "Recorde mundial de velocidade do vento registrado, em 1996, por um furacão no Oceano Atlântico(quilômetros por hora):",
+          "question": "Recorde mundial de velocidade do vento registrado, devido a um furacão no Oceano Atlântico em 1996 (quilômetros por hora):",
           "answer": 508
         },
         {
@@ -187,7 +187,7 @@
           "answer": 17
         },
         {
-          "question": "Estimativa de valor agregado em 2021 para o mercado de embalagens de papel (bilhões):",
+          "question": "Valor agregado em 2021 para o mercado de embalagens de papel (bilhões de dólares):",
           "answer": 190
         },
         {
@@ -220,8 +220,8 @@
           "answer": 200
         },
         {
-          "question": "Quantidade de neurônios que uma abelha possui:",
-          "answer": 900000
+          "question": "Quantidade de neurônios que uma abelha possui (milhares):",
+          "answer": 900
         },
         {
           "question": "Distância percorrida pela mariposa-monarca em sua migração do Canadá ao México (quilômetros):",
@@ -245,11 +245,11 @@
           "answer": 65000
         },
         {
-          "question": "Quantidade em metros cúbicos de água que a corrente do Golfo transporta por segundo (milhões):",
+          "question": "Quantidade de água que a corrente do Golfo transporta por segundo (milhões de metros cúbicos):",
           "answer": 30
         },
         {
-          "question": "Altura estimada da maior onda registrada durente um terremoto na Baía de Lituya(metros):",
+          "question": "Altura estimada da maior onda registrada, durante um terremoto na Baía de Lituya (metros):",
           "answer": 91
         },
         {
@@ -299,7 +299,7 @@
           "answer": 120
         },
         {
-          "question": "Número máximo de ovos que pode conter numa posta de ovos de patos domésticos:",
+          "question": "Número máximo de ovos registrado em uma posta de ovos de patos domésticos:",
           "answer": 40
         },
         {
@@ -332,7 +332,7 @@
           "answer": 91
         },
         {
-          "question": "Tempo para ser realizado o gol mais rápido da história das Copasm, marcado por Hakan Şükür em 2002 (segundos):",
+          "question": "Tempo para ser realizado o gol mais rápido da história das Copas, marcado por Hakan Şükür em 2002 (segundos):",
           "answer": 11
         },
         {
@@ -382,23 +382,23 @@
       "theme": "Sabonete",
       "questions": [
         {
-          "question": "Estimativa de avaliação do mercado de sabão e produtos de cuidados pessoais em 2020 (bilhões de dólares):",
+          "question": "Valor agregado ao mercado de sabão e produtos de cuidados pessoais em 2020 (bilhões de dólares):",
           "answer": 20
         },
         {
-          "question": "Número estimado de sabonetes produzidos anualmente em 2020 (milhões de toneladas):",
+          "question": "Número estimado de sabonetes produzidos no ano de 2020 (milhões):",
           "answer": 12
         },
         {
-          "question": "Porcentagem que sabonetes líquidos representam no mercado global de sabonete de 2020:",
+          "question": "Porcentagem que sabonetes líquidos representam no mercado global de sabonete:",
           "answer": 20
         },
         {
-          "question": "Porcentagem de sabonetes comerciais produzidos com óleo de palma no ano de 2020:",
+          "question": "Porcentagem de sabonetes comerciais produzidos com óleo de palma anualmente:",
           "answer": 40
         },
         {
-          "question": "Número estimado da média de sabonete em barra que um japonês utilizou por ano, em 2022:",
+          "question": "Número estimado da média de sabonete em barra que um japonês utiliza por ano:",
           "answer": 13
         },
         {
@@ -672,7 +672,7 @@
       "theme": "Fobia",
       "questions": [
         {
-          "question": "Número de letras presente no nome de fobias de palavras grandes:",
+          "question": "Número de letras presente no nome de fobia de palavras grandes:",
           "answer": 33
         },
         {
@@ -701,15 +701,15 @@
       "theme": "Sono",
       "questions": [
         {
-          "question": "Tempo estimado recomendado para recém-nascidos de sono por noite (horas):",
+          "question": "Tempo estimado recomendado de sono por noite para recém-nascidos (horas):",
           "answer": 17
         },
         {
-          "question": "Porcentagem estimada que o cérebro processa das experiências do dia durante o sono:",
+          "question": "Porcentagem estimada que o cérebro processa as experiências do dia durante o sono:",
           "answer": 25
         },
         {
-          "question": "Tempo de sono diminuído de uma pessoa pela exposição exagerada à luz azul (minutos):",
+          "question": "Tempo de sono diminuído de uma pessoa devido exposição exagerada à luz azul (minutos):",
           "answer": 84
         },
         {
@@ -804,7 +804,7 @@
           "answer": 20
         },
         {
-          "question": "Ingestão média de sal por pessoa consumida diariamente (gramas):",
+          "question": "Ingestão média de sal por uma pessoa ao longo do dia (gramas):",
           "answer": 10
         },
         {
@@ -941,11 +941,11 @@
           "answer": 20
         },
         {
-          "question": "Recorde de maior número de folhas grampeadas de uma só por grampo de tamanho industrial (milhares):",
+          "question": "Recorde de maior número de folhas grampeadas de uma só vez por grampo de tamanho industrial (milhares):",
           "answer": 351
         },
         {
-          "question": "Número de unidades que uma caixa tradicional de grampos de escritório geralmente contém:",
+          "question": "Número de unidades de grampos que uma caixa tradicional de grampos de escritório geralmente contém:",
           "answer": 1000
         },
         {
@@ -1020,15 +1020,15 @@
       "theme": "Carro",
       "questions": [
         {
-          "question": "Velocidade que o Bugatti Chiron, um dos carros de produção mais rápidos do mundo, atinge (quilômetros por hora):",
+          "question": "Velocidade que o Bugatti Chiron, um dos carros mais rápidos do mundo, atinge (quilômetros por hora):",
           "answer": 420
         },
         {
-          "question": "Quantidade de energia consumida pelo Tesla Modelo 3 em 100 k, (quilowatts por hora):",
+          "question": "Quantidade de energia consumida pelo Tesla Modelo 3 em 100 quilomêtros (quilowatts por hora):",
           "answer": 15
         },
         {
-          "question": "Quantidade de CO2 estimada emitida por um carro de gasolina convencional por km (gramas)",
+          "question": "Quantidade de CO2 estimada emitida a cada quilômetro por um carro de gasolina convencional (gramas)",
           "answer": 150
         },
         {
@@ -1036,7 +1036,7 @@
           "answer": 35
         },
         {
-          "question": "Número de unidades vendidas pelo mercado global de automóveis, em 2022 (milhões de dólares):",
+          "question": "Número de unidades de automóveis vendidas globalmente em 2022 (milhões):",
           "answer": 80
         },
         {
@@ -1049,15 +1049,15 @@
       "theme": "Maquiagem",
       "questions": [
         {
-          "question": "Número médio de produtos de maquiagem que a mulher tem em sua coleção:",
+          "question": "Número médio de produtos de maquiagem que mulheres tem em sua coleção:",
           "answer": 40
         },
         {
-          "question": "Tempo estimado de venda de batons por segundos:",
+          "question": "Tempo estimado de venda de batons por segundo:",
           "answer": 10
         },
         {
-          "question": "Maior quantidade de cores diferentes em uma paleta de sombras já produzida:",
+          "question": "Maior quantidade de cores diferentes em uma paleta de sombras:",
           "answer": 360
         },
         {
@@ -1069,7 +1069,7 @@
           "answer": 20
         },
         {
-          "question": "Porcentagem de homens que utilizam maquiagem, e usam para esconder imperfeições ou melhorar a aparência da pele:",
+          "question": "Porcentagem de homens que utilizam maquiagem para esconder imperfeições ou melhorar a aparência da pele:",
           "answer": 40
         }
       ]
@@ -1090,7 +1090,7 @@
           "answer": 10
         },
         {
-          "question": "Número de onças de Krugerrand (moedas de ouro) haviam sido produzidas desde sua criação em 2021 (milhões):",
+          "question": "Número de onças de Krugerrand (moedas de ouro) produzidas desde sua criação em 2021 (milhões):",
           "answer": 50
         },
         {
@@ -1098,7 +1098,7 @@
           "answer": 19
         },
         {
-          "question": "Porcentagem de circulação da cédula de 100 reais utilizada no total das cédulas em circulação no Brasil:",
+          "question": "Porcentagem de circulação da cédula de 100 reais no Brasil por ano:",
           "answer": 50
         }
       ]
@@ -1123,11 +1123,11 @@
           "answer": 40
         },
         {
-          "question": "Porcentagem de bonés vendidos em lojas especializadas que usam materiais sustentáveis em 2022:",
+          "question": "Porcentagem de bonés que usam materiais sustentáveis:",
           "answer": 38
         },
         {
-          "question": "Número de unidades de boné produzidos no Brasil por ano (milhões):",
+          "question": "Número de unidades de bonés produzidos no Brasil por ano (milhões):",
           "answer": 30
         }
       ]
@@ -1148,11 +1148,11 @@
           "answer": 1000
         },
         {
-          "question": "Porcentagem aproximada da produção de tijolos globalmente voltada para alternativas sustentáveis em 2020:",
+          "question": "Porcentagem aproximada da produção de tijolos globalmente voltada para alternativas sustentáveis:",
           "answer": 15
         },
         {
-          "question": "Porcentagem de aumento da luminosidade de um ambiente de tijolos de vidro em comparação à tijolos normais:",
+          "question": "Porcentagem de aumento da luminosidade de um ambiente com tijolos de vidro em comparação à tijolos normais:",
           "answer": 40
         },
         {
@@ -1185,7 +1185,7 @@
           "answer": 293
         },
         {
-          "question": "Porcenagem de cobre presente na composição de uma medalha de cobre dos Jogos Olímpicos:",
+          "question": "Porcentagem de cobre presente na composição de uma medalha de bronze dos Jogos Olímpicos:",
           "answer": 95
         }
       ]
@@ -1194,7 +1194,7 @@
       "theme": "Fórmula 1",
       "questions": [
         {
-          "question": "Número de vitórias de Lewis Hamilton até 2023:",
+          "question": "Número de vitórias de Lewis Hamilton, até 2023:",
           "answer": 103
         },
         {
@@ -1231,7 +1231,7 @@
           "answer": 120
         },
         {
-          "question": "Número estimado de e-mails de spam enviados por dia em todo mundo no ano de 2023 (bilhões):",
+          "question": "Número estimado de e-mails de spam enviados por dia globalmente (bilhões):",
           "answer": 355
         },
         {
@@ -1239,7 +1239,7 @@
           "answer": 120
         },
         {
-          "question": "Porcentagem de e-mails dos totais abertos em dispositivos móveis, como smartphones e tablets:",
+          "question": "Porcentagem de e-mails, dos totais, abertos em dispositivos móveis, como smartphones e tablets:",
           "answer": 55
         },
         {
@@ -1281,7 +1281,7 @@
       "theme": "Pneu",
       "questions": [
         {
-          "question": "Porcentagem de pneu reciclados dos pneus descartados anualmente em todo mundo:",
+          "question": "Porcentagem de pneus reciclados da quantidade descartada anualmente em todo mundo:",
           "answer": 30
         },
         {
@@ -1301,7 +1301,7 @@
           "answer": 50
         },
         {
-          "question": "Número de aterrissagens máxima que pneus de aviões comerciais sofrem antes de serem recapados ou substituídos:",
+          "question": "Número de aterrissagens máximas que pneus de aviões comerciais sofrem antes de serem recapados ou substituídos:",
           "answer": 250
         }
       ]
