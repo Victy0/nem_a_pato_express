@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:nem_a_pato_app/models/question.dart';
 import 'package:nem_a_pato_app/pages/select_game_mode_page.dart';
 import 'package:nem_a_pato_app/services/data_service.dart';
+import 'package:wakelock/wakelock.dart';
 
 class GamePage extends StatefulWidget {
   final int totalMatches;
@@ -87,6 +88,8 @@ class GamePageState extends State<GamePage> {
 
   @override
   Widget build(BuildContext context) {
+    Wakelock.enable();
+
     return Scaffold(
       body: Stack(
         children: [
@@ -147,17 +150,14 @@ class GamePageState extends State<GamePage> {
                               ),
                               const SizedBox(height: 30),
                               answerRevealed 
-                                ? Padding(
-                                  padding: const EdgeInsets.only(top: 20),
-                                  child: Text(
+                                ? Text(
                                     key: const Key('answer'),
                                     answer.toString(),
                                     style: const TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 40,
                                     ),
-                                  ),
-                                )
+                                  )
                                 : IconButton(
                                   onPressed: () {
                                     showAnswer();
@@ -198,6 +198,7 @@ class GamePageState extends State<GamePage> {
                               padding: const EdgeInsets.all(16.0),
                               child: IconButton(
                                 onPressed: () {
+                                  Wakelock.disable();
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(builder: (context) => const SelectGameModePage()),
@@ -245,6 +246,7 @@ class GamePageState extends State<GamePage> {
               padding: const EdgeInsets.all(16.0),
               child: IconButton(
                 onPressed: () {
+                  Wakelock.disable();
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const SelectGameModePage()),
